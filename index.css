@@ -933,9 +933,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   #navbarSupportedContent
   .nav-link {
   margin-right: 100px;
-  margin-left: 10px;
-  font-size: 30px;
+  margin-left: 4%;
+  font-size: 50px;
   width: 90%;
+  margin-top: 2%;
 }
   .container-fluid {
     margin-top: 60px;
