@@ -897,6 +897,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   body {
     overflow: scroll;
   }
+
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
     background-color: #fff;
     height: 115px;
@@ -945,10 +946,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     min-width: 500px;
   }
   .container-fluid #front .webtitle .firstsentence {
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: -0.5%;
     color: #ff7657;
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-weight: 900;
     width: fit-content;
     float: left;
@@ -957,29 +958,29 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 60%;
     margin-top: 3.5%;
     color: #ffba5a;
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-weight: 900;
     width: 50%;
   }
   .container-fluid #front .idea_explanation {
     margin: 0 auto;
-    margin-left: 30%;
+    margin-left: 27%;
     width: 60%;
     margin-top: 80px;
     font-weight: 800;
     color: #7e7e7e;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
   .container-fluid #front .firstmorebtn {
     border-radius: 20px;
-    height: 47px;
-    width: 110px;
+    height: 50px;
+    width: 140px;
     margin: 0 auto;
     margin-top: 60px;
-    margin-left: 50%;
+    margin-left: 47%;
     background-color: #665c84;
-    padding-top: 0.5%;
-    padding-left: 1.7%;
+    padding-top: 0.7%;
+    padding-left: 3%;
   }
   .container-fluid #front .firstmorebtn a {
     color: #fff;
@@ -997,7 +998,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid #questionnaire img {
     width: 76%;
-    height: 79.2%;
+    height: auto;
     margin: -100px auto 50px 17%;
     position: relative;
   }
@@ -1050,11 +1051,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     width: 70%;
     margin-left: 20%;
+    margin-top: 5%;
   }
   .container-fluid #questionnaire .questionnaire_explanation p {
     text-align: justify;
     text-justify: inter-ideograph;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
   .container-fluid #cinema {
     padding: 0px;
@@ -1091,10 +1093,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid #cinema .cinema_explanation-1 {
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin: 0 auto;
     width: 70%;
     margin-left: 20%;
+    margin-top: 5%;
   }
   .container-fluid #cinema .video1 .cinemaleft2 {
     width: 24%;
