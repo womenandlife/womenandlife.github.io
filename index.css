@@ -979,7 +979,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 80px;
     font-weight: 800;
     color: #7e7e7e;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
   }
   .container-fluid #front .firstmorebtn {
     border-radius: 20px;
@@ -1053,7 +1053,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 45%;
   }
   .container-fluid #questionnaire .questionnairename p {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     color: #ff7657;
     font-weight: 900;
   }
@@ -1066,7 +1066,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #questionnaire .questionnaire_explanation p {
     text-align: justify;
     text-justify: inter-ideograph;
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
   .container-fluid #cinema {
     padding: 0px;
@@ -1096,14 +1096,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #cinema .cinemaname-1 p {
     color: #ff7657;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
   .container-fluid #cinema .cinema_explanation {
     display: none;
   }
   .container-fluid #cinema .cinema_explanation-1 {
     display: block;
-    font-size: 1.8rem;
+    font-size: 3rem;
     margin: 0 auto;
     width: 70%;
     margin-left: 20%;
@@ -1260,7 +1260,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 47%;
   }
   .container-fluid #issues .issuesname p {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     color: #ff7657;
     font-weight: 900;
   }
@@ -1273,7 +1273,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #issues .issues_explanation p {
     text-align: justify;
     text-justify: inter-ideograph;
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
   .container-fluid #issues .morebtn {
     border-radius: 31px;
@@ -1313,7 +1313,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 45%;
   }
   .container-fluid #postoffice .postofficename p {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     color: #ff7657;
     font-weight: 900;
   }
@@ -1321,7 +1321,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     width: 70%;
     color: #7e7e7e;
-    font-size: 1.8rem;
+    font-size: 3rem;
     text-align: center;
     margin-left: 20%;
     margin-top: 5%;
