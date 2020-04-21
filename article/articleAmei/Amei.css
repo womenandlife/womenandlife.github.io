@@ -10,6 +10,10 @@ body {
   scroll-behavior: smooth;
   height: auto;
 }
+nav .navbar-toggler-icon{
+  width: 3em;
+  height: 3em;
+}
 
 nav .navbar-brand {
   font-size: 18pt;
@@ -380,11 +384,20 @@ img{
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light #navbarSupportedContent {
     background-color: #fff;
     padding: 0%;
-    margin-top: 20px;
+    margin-top: 16.2px;
     width: 110%;
     margin-left: 0%;
     /*換成手機板時，MARGIN-LEFT要修改*/
   }
+  nav.navbar.fixed-top.navbar-expand-lg.navbar-light
+  #navbarSupportedContent
+  .nav-link {
+  margin-right: 100px;
+  margin-left: 4%;
+  font-size: 50px;
+  margin-top: 2%;
+  width: 90%;
+}
   .container-fluid {
     margin-top: 60px;
     padding: 0px;
