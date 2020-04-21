@@ -1051,10 +1051,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     width: fit-content;
     margin-top: 30px;
-    margin-left: 45%;
+    margin-left: 42%;
   }
   .container-fluid #questionnaire .questionnairename p {
-    font-size: 3.2rem;
+    font-size: 4rem;
     color: #ff7657;
     font-weight: 900;
   }
@@ -1092,12 +1092,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: fit-content;
     margin-top: 50px;
     margin-bottom: 0px;
-    margin-left: 45%;
+    margin-left: 42%;
   }
   .container-fluid #cinema .cinemaname-1 p {
     color: #ff7657;
     font-weight: 900;
-    font-size: 3.2rem;
+    font-size: 4rem;
   }
   .container-fluid #cinema .cinema_explanation {
     display: none;
@@ -1258,10 +1258,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #issues .issuesname {
     margin: 0 auto;
     width: fit-content;
-    margin-left: 47%;
+    margin-left: 42%;
   }
   .container-fluid #issues .issuesname p {
-    font-size: 3.2rem;
+    font-size: 4rem;
     color: #ff7657;
     font-weight: 900;
   }
@@ -1311,10 +1311,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     width: fit-content;
     margin-top: 30px;
-    margin-left: 45%;
+    margin-left: 42%;
   }
   .container-fluid #postoffice .postofficename p {
-    font-size: 3.2rem;
+    font-size: 4rem;
     color: #ff7657;
     font-weight: 900;
   }
