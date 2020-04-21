@@ -535,6 +535,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 .container-fluid #footer {
   padding: 0px;
   margin-top: 30px;
+  margin-left: 100px;
 }
 .container-fluid #footer #rectangle {
   width: 100%;
