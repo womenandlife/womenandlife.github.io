@@ -791,7 +791,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .movingphone .secondpic-1{
     /*position: absolute;*/
-    margin-top: -480px;
+    margin-top: -630px;
     width: 100px;
     height:147.3px;
     /*left: 280px;*/
@@ -806,6 +806,24 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .movingphone{
     display: block;
+  }
+  .container-fluid .row .morebtn2 {
+    border-radius: 31px;
+    height: 40px;
+    width: 99px;
+    background-color: #665c84;
+    margin: 50px auto;
+    margin-top: 70px;
+    cursor: pointer;
+    padding-left: 1.9%;
+    z-index: 5;
+  }
+  .container-fluid .row .morebtn2 p {
+    color: #fff;
+    line-height: 2.2;
+    font-size: 1.1rem;
+    transition-duration: 0.5s;
+    text-decoration: none;
   }
   .container-fluid .row .name03 {
     width: fit-content;
