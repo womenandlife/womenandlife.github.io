@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>生活與職場滿意度問卷</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+    />
+    <link rel="stylesheet" href="./questionnaire01.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/index.html"
+        ><div class="workwell">&emsp;好好工作</div><br />&emsp;&emsp;好好生活</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="here" href="/index.html#questionnaire"
+              >現況調查局<span class="sr-only" current="current"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html#cinema">沃曼電影院</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html#talkcafe">蕾諦咖啡廳</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html#issues">議題發送站</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html#postoffice">悄悄話郵局</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid" id="fullpage">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12" id="swiper">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div><p class="name">生活與職場滿意度問卷</p></div>
+                <div class="putwordsinside">
+                  <p class="words">
+                    此問卷的目的為了解職場女性對於工作與生活的滿意程度，以及對於「質感生活」的想法，於2019年7年4日至2019年8月31日對有全職工作的女性進行問卷調查，主要發放的平台為女性相關Facebook社團以及投放在PTT問卷版，最後共回收151份有效問卷，其中25-38歲共有56位，39-52歲共有57位，並以46-52歲為眾。<br />其中，身處服務業的比例最高，共有27位，其次為教育研究類21位，再者是工程製造類、軍警行政類各佔18位。
+                  </p>
+                </div>
+                <div id="myChart"></div>
+                <div class="morebtn"><p>MORE+</p></div>
+                <div class="backbtn"><a href="/index.html#questionnaire">◀</a></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="two"></div>
+                <div><p class="name02">工作再忙　也要享受生活</p></div>
+                <div class="putwordsinside02">
+                  <p class="words02">
+                    日常中，有些人的「工作與生活」比例，顯示工作幾乎佔據了全部的生活。而在工作之餘，能透過一些事情抒發壓力、好好放鬆，才能讓自己在忙碌中獲得喘息的空間。
+                  </p>
+                </div>
+                <!---之後再把所有的inifinite刪掉-->
+                <div class="sentence02-1">
+                  <p class="animated fadeInDown">
+                    編輯：「工作90%，生活10%」
+                  </p>
+                </div>
+                <div class="sentence02-2">
+                  <p class="animated fadeInDown">
+                    物理治療師：「工作80%，生活20%」
+                  </p>
+                </div>
+                <div class="sentence02-3">
+                  <p class="animated fadeInDown">
+                    專案經理：「工作80%，生活20%」
+                  </p>
+                </div>
+                <div class="sentence02-4">
+                  <p class="animated fadeInDown">採購：「工作80%，生活20%」</p>
+                </div>
+                <div class="sentence02-5">
+                  <p class="animated fadeInDown">
+                    工程師：「我喜歡插花、茶道」
+                  </p>
+                </div>
+                <div class="sentence02-6">
+                  <p class="animated fadeInDown">
+                    全球服務規劃管理師：「平時喜歡旅遊」
+                  </p>
+                </div>
+                <div class="sentence02-7">
+                  <p class="animated fadeInDown">
+                    捷運站副站長：「喜歡看書、看電影」
+                  </p>
+                </div>
+                <div class="sentence02-8">
+                  <p class="animated fadeInDown">剪接師：「烹飪是我的興趣」</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="three-01"
+                  src="./img/question01.png"
+                  alt="building"
+                />
+                <img
+                  class="three-02"
+                  src="./img/question02.png"
+                  alt="building"
+                />
+                <button class="basket03-1btn">被工作束縛</button>
+                <button class="basket03-2btn">被家庭束縛</button>
+                <div class="basket03">
+                  <p class="basket03-1words">
+                    當被問及「生活中，你是否會感到被工作束縛」時，最多的回覆是「偶爾」佔41%，而「有」感到被工作束縛的回覆（包含總是、經常、有時）者共佔43%。
+                  </p>
+                  <p class="basket03-2words">
+                    當被問及「生活中，你是否會感到被家庭束縛」時，最多的回覆是「偶爾」佔36%，而「有」感到被家庭束縛的回覆（包含總是、經常、有時）者共佔約34%。
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide" id="swiper-slide4">
+                <div class="div_name04"><p class="name04">質感生活定義</p></div>
+                <!--有修改的地方-->
+
+                <div class="putwordsinside04">
+                  <p class="words04">
+                    一般我們說質感生活是指盡情享受在工作中的狀態、工作之餘培養自己的興趣、有一個完全屬於自己的時、空間等。
+                  </p>
+                </div>
+                <div class="wordspic">
+                  <img src="./img/word.png" alt="質感生活句子" />
+                </div>
+                <div class="sentence_flex">
+                  <!--有修改的地方-->
+                  <div class="sentence04-1">
+                    <p>找到自己最舒服的生活方式</p>
+                  </div>
+                  <div class="sentence04-2">
+                    <p>用符合自己個性的步調過每一天</p>
+                  </div>
+                  <div class="sentence04-3">
+                    <p>享受工作的成就感，享受放假的悠閒感</p>
+                  </div>
+                  <div class="sentence04-4">
+                    <p>採買時可以挑選喜歡的樣式，不用考慮是否特價</p>
+                  </div>
+                  <div class="sentence04-5">
+                    <p>主管有腦、不用帶工作回家</p>
+                  </div>
+                  <div class="sentence04-6"><p>平淡悠閑可觀望景象</p></div>
+                  <div class="sentence04-7">
+                    <p>身體健康、手有餘款，只做想做的事</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img class="five" src="./img/question05.png" alt="building" />
+                <div><p class="name05">工作v.s生活比例</p></div>
+                <div class="putwordsinside05">
+                  <p class="words05">
+                    多數人回答「工作」與「生活」各佔的比例多為「70:30」、「60:40」，其中又以「工作70%，生活30%」為眾。
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img class="six-01" src="./img/question04.png" alt="building" />
+                <img class="six-02" src="./img/question03.png" alt="building" />
+                <button class="basket06-1btn">質感生活值</button>
+                <button class="basket06-2btn">改變生活值</button>
+                <div class="basket06">
+                  <p class="basket06-1words">
+                    當被問及「你的生活符合質感生活的程度」時，0分到10分，10分為滿分，所得到的平均值為6.1。
+                  </p>
+                  <p class="basket06-2words">
+                    當被問及「你想改變目前生活的程度」時，最多的回覆是「有點想」超過一半。
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide" id="swiper-slide5">
+                <div class="div_name04">
+                  <p class="name04" id="name07">理想生活狀態</p>
+                </div>
+                <!--有修改的地方-->
+                <div class="putwordsinside04" id="putwordsinside07">
+                  <p class="words04">
+                    在問卷中運用幾句話，試著勾勒自己理想的生活狀態。
+                  </p>
+                </div>
+                <div class="wordspic07">
+                  <img src="./img/wordspic07.JPG" alt="質感生活句子" />
+                </div>
+                <!--從這邊以下-->
+                <div class="sentence_flex">
+                  <!--有修改的地方-->
+                  <div class="sentence07-1"><p>工作與私人時間完美切割</p></div>
+                  <div class="sentence07-2"><p>準時下班，跟女兒聊聊天</p></div>
+                  <div class="sentence07-3"><p>沒有心理負擔影響睡眠</p></div>
+                  <div class="sentence07-4">
+                    <p>下班回家放空不用管公司的事，不必擔心報告和專案進度</p>
+                  </div>
+                  <div class="sentence07-5"><p>想去哪旅行就去哪旅行</p></div>
+                  <div class="sentence07-6"><p>下班後都是自己的時間</p></div>
+                  <div class="sentence07-7">
+                    <p>可以有彈性的工時，放假時可以盡情旅遊</p>
+                  </div>
+                </div>
+                <!--從這邊以上 每個div就是致中排列好-->
+                <div class="topbtn"><a class="top" href="#">↑</a></div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="col-lg-12" id="footer">
+          <div id="rectangle">
+            <a
+              class="facebook"
+              href="https://www.facebook.com/%E5%A5%BD%E5%A5%BD%E5%B7%A5%E4%BD%9C-%E5%A5%BD%E5%A5%BD%E7%94%9F%E6%B4%BB-106730690945457/"
+              ><i class="fab fa-facebook fa-lg"></i></a
+            ><a
+              class="youtube"
+              href="https://www.youtube.com/channel/UCcjyQbqdiWSMigSbEL_833Q?view_as=subscriber"
+              ><i class="fab fa-youtube fa-lg"></i
+            ></a>
+            <p>THREE CORKIES © 2020 copyright. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.ba-bbq/1.2.1/jquery.ba-bbq.min.js'></script> -->
+    <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zingchart/2.8.6/zingchart.min.js"></script>
+    <script src="anijs-min.js"></script>
+    <script src="./questionnaire01.js"></script>
+  </body>
+</html>

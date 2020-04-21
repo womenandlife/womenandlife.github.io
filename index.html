@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>好好工作　好好生活</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- partial:index.partial.html -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#" 
+        ><div class="workwell">&emsp;好好工作</div><br />&emsp;&emsp;好好生活</a
+      >
+      <!--<a class="navbar-brand" href="#" 
+        ><img src="./img/logo.png" alt=""></a
+      >-->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#questionnaire"
+              >現況調查局<span class="sr-only" current="current"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cinema">沃曼電影院</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#talkcafe">蕾諦咖啡廳</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#issues">議題發送站</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#postoffice">悄悄話郵局</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid" id="fullpage">
+      <div class="row">
+        <div class="col-lg-12" id="front">
+          <img src="./img/front.png" alt="首頁" />
+          <div class="webtitle">
+            <p class="firstsentence">好好工作</p>
+            <p class="secondsentence">好好生活</p>
+          </div>
+          <div class="idea_explanation">
+            <p>
+              職場與生活中，身兼多重角色的你/妳，平衡了嗎？<br />在每個忙碌的日常裡，選擇做最平衡的自己。<br />
+            </p>
+          </div>
+          <div class="firstmorebtn"><a href="/idea/idea.html">MORE+</a></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12" id="questionnaire">
+          <img src="./img/question.png" alt="" />
+          <a href="/questionnaire/questionnaire01/questionnaire01.html"><div class="goto1stquestion"></div></a>
+          <a href="/questionnaire/questionnaire02/questionnaire02.html"><div class="goto2ndquestion"></div></a>
+          <div class="questionnairename"><p>問卷調查</p></div>
+          <div class="questionnaire_explanation">
+            <p>
+              本團隊於2019年發行了兩份問卷，第一份為調查職場女性對於生活的滿意程度，第二份則為社會大眾對女性現有職業的好奇程度。透過第一份問卷我們可以大致了解職場女性在工作與生活間的平衡情形，而第二份問卷所得到的結果則成為本團隊尋找受訪者的依據。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" id="cinema">
+          <img class="cinemaleft1" src="/img/cinema.png" alt="女孩與售票亭" />
+          <div class="cinemaname-1"><p>預告影片</p></div>
+          <div class="cinema_explanation-1">
+            <p>
+              起飛、探索、綻放分別代表人生中追尋夢想的三階段，三部影片分別呈現13位受訪者的生活軌跡，也是她們追尋內心、釐清自己後為質感生活所下的註解。不用電影票！現正熱映中！
+            </p>
+          </div>
+          <a class="video1" href="/film/film01.html"
+            ><img class="cinemaleft2" src="./img/poster1.png" alt="起飛"
+          /></a>
+          <a class="video2" href="/film/film02/film02.html"
+            ><img class="cinemaright1" src="./img/poster2.png" alt="探索"
+          /></a>
+          <a class="video3" href="/film/film03/film03.html"
+            ><img class="cinemaright2" src="./img/poster3.png" alt="綻放"
+          /></a>
+          <div class="cinemaname"><p>預告影片</p></div>
+          <div class="cinema_explanation">
+            <p>
+              起飛、探索、綻放分別代表人生中追尋夢想的三階段<br />三部影片分別呈現13位受訪者的生活軌跡，也是她們追尋內心、釐清自己後為質感生活所下的註解<br />不用電影票！現正熱映中！
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" id="talkcafe">
+          <img
+            src="./img/people_background.png"
+            alt="background"
+            class="people_background"
+          />
+          <img
+            src="./img/cellphone.png"
+            alt="background"
+            class="mobile_people_background"
+          />
+          <div class="box_of_articlehover">
+            <img
+              src="./img/ppp.png"
+              alt="plantsandlight"
+              class="hoverpicture"
+            />
+          </div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/peple/emily.png" alt="Emily" />
+                <div class="putnameinside"><p>Emily</p></div>
+                <div class="putoccupationinside">
+                  <p>空服員/<br />無私分享的「空姐報報」</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleEmily/emily.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/yaya.png" alt="亞亞" />
+                <div class="putnameinside"><p>巫于涵(亞亞)</p></div>
+                <div class="putoccupationinside">
+                  <p>重機業務/<br />馳騁在山路上的工作狂</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleYaya/Yaya.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/bonny.png" alt="邦妮" />
+                <div class="putnameinside"><p>邦妮</p></div>
+                <div class="putoccupationinside">
+                  <p>醫生/<br />時尚俏媽咪部落客</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleBonnie/Bonnie.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/eva.png" alt="李逸芳" />
+                <div class="putnameinside"><p>李逸芳(Eva)</p></div>
+                <div class="putoccupationinside">
+                  <p>工程師/<br />知識型旅遊YouTuber</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleEva/Eva.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/dapei.png" alt="李霈瑜" />
+                <div class="putnameinside"><p>李霈瑜(大霈)</p></div>
+                <div class="putoccupationinside">
+                  <p>演藝人員/<br />愛海愛唱愛地球</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleDaPei/DaPei.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/reporter.png" alt="侯以理" />
+                <div class="putnameinside"><p>侯以理</p></div>
+                <div class="putoccupationinside">
+                  <p>主播/<br />鐵人三項也難不倒我</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleHoyili/Hoyili.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/amei.png" alt="徐靖婷" />
+                <div class="putnameinside"><p>徐靖婷</p></div>
+                <div class="putoccupationinside">
+                  <p>創業家/<br />辦公室也是育嬰室</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleAmei/Amei.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/shalin.png" alt="莊雅勛（Shalin）" />
+                <div class="putnameinside"><p>莊雅勛</p></div>
+                <div class="putoccupationinside">
+                  <p>人資主管/<br />創造成就感給自己</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleShalin/shalin.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/wendy.png" alt="張雅鈞" />
+                <div class="putnameinside"><p>張雅鈞</p></div>
+                <div class="putoccupationinside">
+                  <p>公關/<br />左手寫寫文章，右手點點影劇</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleWendy/Wendy.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/editor.png" alt="陳雅慧" />
+                <div class="putnameinside"><p>陳雅慧</p></div>
+                <div class="putoccupationinside">
+                  <p>雜誌總編輯/<br />用心扮演好母親角色</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleYahui/Yahui.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/pilot.png" alt="許齡" />
+                <div class="putnameinside"><p>許齡</p></div>
+                <div class="putoccupationinside">
+                  <p>機師/<br />飛上天際勇敢逐夢</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleHsulin/Hsulin.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/weiting.png" alt="黃偉亭" />
+                <div class="putnameinside"><p>黃偉亭</p></div>
+                <div class="putoccupationinside">
+                  <p>國際藝術家/<br />找出育兒與事業的平衡</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleWeiting/Weiting.html"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/peple/emelda.png" alt="趙義達" />
+                <div class="putnameinside"><p>趙義達</p></div>
+                <div class="putoccupationinside">
+                  <p>修女/<br />孕育幼兒的生命力</p>
+                </div>
+                <div class="toarticle">
+                  <a href="./article/articleImelda/Imelda.html"></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" id="issues">
+          <img src="./img/issue.png" alt="" />
+          <div class="issuesname"><p>延伸議題</p></div>
+          <div class="issues_explanation">
+            <p>
+              透過與受訪者們訪談所獲得的資訊，本團隊精選出七大相關主題，並衍生至多個面向。
+              除了說明每個主題的現況外，也提供解決之道或相對應的窗口，希望能使大眾再一次正視這些主題的重要性，並因此找到屬於自己的平衡。
+            </p>
+          </div>
+          <div class="morebtn"><a href="/issues/GenderIsNotExcuse/GenderIsNotExcuse.html">&emsp;MORE+</a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" id="postoffice">
+          <img src="./img/postoffice.png" alt="悄悄話郵局" />
+          <div class="postofficename"><p>聯絡我們</p></div>
+          <div class="postoffice_explanation">
+            <p>
+              若有相關問題，或任何建議反饋，都歡迎告訴我們！
+            </p>
+          </div>
+          <div class="form">
+            <iframe
+              width="120%"
+              height="410vh"
+              src="https://www.surveycake.com/s/rq1XB"
+              style="border: #ddd 1px solid;"
+              allowTransparency="true"
+              frameborder="0"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" id="footer">
+          <div id="rectangle">
+            <a
+              class="facebook"
+              href="https://www.facebook.com/%E5%A5%BD%E5%A5%BD%E5%B7%A5%E4%BD%9C-%E5%A5%BD%E5%A5%BD%E7%94%9F%E6%B4%BB-106730690945457/"
+              ><i class="fab fa-facebook fa-lg"></i></a
+            ><a
+              class="youtube"
+              href="https://www.youtube.com/channel/UCcjyQbqdiWSMigSbEL_833Q?view_as=subscriber"
+              ><i class="fab fa-youtube fa-lg"></i
+            ></a>
+            <p>THREE CORKIES © 2020 copyright. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ba-bbq/1.2.1/jquery.ba-bbq.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+    <script src="./index.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".swiper-slide").hover(
+          function () {
+            $(".hoverpicture").addClass("hoverpicture_show");
+          },
+          function () {
+            $(".hoverpicture").removeClass("hoverpicture_show");
+          }
+        );
+      });
+    </script>
+  </body>
+</html>

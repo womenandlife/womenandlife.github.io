@@ -1,0 +1,434 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  height: auto;
+}
+
+nav .navbar-brand {
+  font-size: 18pt;
+  color: #ee8572;
+  right: 5%;
+  line-height: 1.22;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', '微軟正黑體';
+}
+
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
+  background-color: #fff;
+  border-bottom: solid #c0c0c0 1px;
+  height: 10.1%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.hideUp nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
+  top: -350px;
+  left: 5%;
+}
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light a {
+  color: #ffba5a;
+  font-weight: bold;
+  margin-left: 2%;
+}
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light a .workwell{
+  color: #ff7657;
+  margin-bottom: -20%;
+  font-family: 'M PLUS Rounded 1c', '微軟正黑體';
+}
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light a:hover {
+  color: #ff7657;
+  transform: scale(1.1);
+}
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light #here {
+  color: #ff7657;
+}
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light #navbarSupportedContent {
+  background-color: #fff;
+  padding: 0.4%;
+  margin-top: 0.5%;
+  width: 100%;
+  margin-left: 10%;
+}
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light
+  #navbarSupportedContent
+  .nav-link {
+  margin-right: 100px;
+  margin-left: 3px;
+  font-size: large;
+  width: 80%;
+}
+.container-fluid {
+  margin-top: 60px;
+  padding: 0px;
+  width: 97.5%;
+}
+
+.container-fluid .row .backbtn {
+  border-radius: 9px;
+  height: 40.1px;
+  width: 38.8px;
+  background-color: #665c84;
+  margin-top: 30px;
+  margin-left: 1300px;
+  padding-left: 0.6%;
+}
+.container-fluid .row .backbtn a {
+  color: #ff856a;
+  line-height: 2.1;
+  font-weight: 900;
+  font-size: 1.1rem;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+.container-fluid .row .backbtn a:hover {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.9;
+  } .backbtn a:hover {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.9;
+}
+.container-fluid .row #UnclarifiedChoice .menu{
+  position: fixed;
+  border-top: #c0c0c0 1px solid;
+  width: 222px;
+  height: 428px;
+  top: 20%;
+  left: 5%;
+}
+.container-fluid .row #UnclarifiedChoice .menu-1{
+  display: none;
+}
+.container-fluid .row #UnclarifiedChoice .menu .issuesnamebackground{
+  width: 222px;
+  height:61.1px;
+  border: #c0c0c0 1px solid;
+  border-top: none;
+  padding: 3px 26px;
+}
+.container-fluid .row #UnclarifiedChoice .menu .issuesnamebackground-here{
+  background-color: #ff7657;
+  width: 222px;
+  height:61.1px;
+  border: #c0c0c0 1px solid;
+  border-top: none;
+  padding: 3px 26px;
+}
+.container-fluid .row #UnclarifiedChoice .menu .issuesnamebackground a{
+  font-size: 1.2rem;
+  line-height: 3;
+  color: #ffba5a;
+  text-decoration: none;
+}
+.container-fluid .row #UnclarifiedChoice .menu .issuesnamebackground a:hover{
+  color: #ff7657;
+  transition-duration: 0.5s;
+}
+.container-fluid .row #UnclarifiedChoice .menu .issuesnamebackground-here a{
+  font-size: 1.2rem;
+  line-height: 3;
+  color: #fff;
+  text-decoration: none;
+  cursor: auto;
+}
+.container-fluid .row #UnclarifiedChoice .title{
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-bottom: 0px;
+}
+.container-fluid .row #UnclarifiedChoice .title p{
+  font-size: 1.8rem;
+  color: #ff7657;
+  font-weight: 900;
+}
+.container-fluid .row #UnclarifiedChoice .words1{
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 25%;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+.container-fluid .row #UnclarifiedChoice .words1 p{
+  color: #7e7e7e;
+  line-height: 1.8;
+}
+.container-fluid .row #UnclarifiedChoice .smalltitle1{
+  position: relative;
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 25%;
+}
+.container-fluid .row #UnclarifiedChoice .smalltitle1 p{
+  font-size: 1.2rem;
+  color: #ff7657;
+  font-weight: 800;
+}
+.container-fluid .row #UnclarifiedChoice .words2{
+  width: 60%;
+  margin-top: 0.5%;
+  margin-left: 25%;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+.container-fluid .row #UnclarifiedChoice .words2 p{
+  color: #7e7e7e;
+  line-height: 1.8;
+}
+.container-fluid .row #UnclarifiedChoice .words2 p a{
+  text-decoration: underline;
+  color: #7e7e7e;
+  font-weight: 600;
+}
+
+.container-fluid .row #UnclarifiedChoice .smalltitle2{
+  position: relative;
+  width: 25%;
+  margin-top: 23px;
+  margin-left: 0%;
+}
+.container-fluid .row #UnclarifiedChoice .smalltitle2 p{
+  font-size: 1.2rem;
+  color: #ff7657;
+  font-weight: 800;
+}
+.container-fluid .row #UnclarifiedChoice .smallsmalltitle{
+  position: relative;
+  width: 25%;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+.container-fluid .row #UnclarifiedChoice .smallsmalltitle p{
+  font-size: 1.1rem;
+  color: #ff7657;
+  font-weight: 800;
+}
+.container-fluid .row #UnclarifiedChoice .smallsmalltitle2{
+  position: relative;
+  width: 500px;
+  margin-top: 23px;
+  margin-left: 0%;
+}
+.container-fluid .row #UnclarifiedChoice .smallsmalltitle2 p{
+  font-size: 1.1rem;
+  color: #ff7657;
+  font-weight: 800;
+}
+.container-fluid .row #UnclarifiedChoice .smallsmalltitle3{
+  position: relative;
+  width: 100%;
+  margin-top: 2.5%;
+  margin-left: 0%;
+}
+.container-fluid .row #UnclarifiedChoice .smallsmalltitle3 p{
+  font-size: 1.1rem;
+  color: #ff7657;
+  font-weight: 800;
+}
+.container-fluid .row #UnclarifiedChoice .words3 p a{
+  text-decoration: underline;
+  color: #7e7e7e;
+  font-weight: 600;
+}
+.container-fluid .row #UnclarifiedChoice .words4{
+  margin-top: 2%;
+}
+.container-fluid .row #UnclarifiedChoice .words4 p a{
+  text-decoration: underline;
+  color: #7e7e7e;
+  font-weight: 600;
+}
+.container-fluid .row #UnclarifiedChoice .words6 p a{
+  text-decoration: underline;
+  color: #7e7e7e;
+  font-weight: 600;
+}
+.container-fluid .row #UnclarifiedChoice .words7{
+  margin-top: 2.5%;
+}
+.container-fluid .row #UnclarifiedChoice .smalltitle3{
+  position: relative;
+  width: 25%;
+  margin-top: 23px;
+  margin-left: 0%;
+}
+.container-fluid .row #UnclarifiedChoice .smalltitle3 p{
+  font-size: 1.2rem;
+  color: #ff7657;
+  font-weight: 800;
+}
+
+.container-fluid #footer {
+  padding: 0px;
+  margin-top: 50px;
+}
+.container-fluid #footer #rectangle {
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  padding: 0px;
+}
+.container-fluid #footer #rectangle a i.fab.fa-facebook.fa-lg {
+  color: #665c84;
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 76%;
+  transform: translatex(-50%) translatey(-50%);
+}
+.container-fluid #footer #rectangle a i.fab.fa-youtube.fa-lg {
+  color: #ff7657;
+  position: absolute;
+  display: inline-block;
+  left: 51.9%;
+  top: 70.5%;
+}
+.container-fluid #footer #rectangle p {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 30px;
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*以下為手機板*/
+@media (max-width: 1200px){
+  nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
+    background-color: #fff;
+    height: 115px;
+    border-bottom: solid #ff7657 2px;
+  }
+  nav .navbar-brand {
+    font-size: 25pt;
+    color: #ee8572;
+    right: 5%;
+    line-height: 1.22;
+    text-align: left;
+    font-weight: bold;
+  }
+  nav.navbar.fixed-top.navbar-expand-lg.navbar-light #navbarSupportedContent {
+    background-color: #fff;
+    padding: 0%;
+    margin-top: 20px;
+    width: 110%;
+    margin-left: 0%;
+    /*換成手機板時，MARGIN-LEFT要修改*/
+  }
+  .container-fluid {
+    margin-top: 60px;
+    padding: 0px;
+    width: 97.5%;
+  }
+  .container-fluid .row .backbtn {
+    display: none;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu{
+    display: none;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1{
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-left: -3%;
+    width: 100%;
+    min-width: 900px;
+
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 .issuesnamebackground a{
+    color: #ffba5a;
+    font-size: 35pt;
+    font-weight: 600;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 .issuesnamebackground-here a{
+    color: #ff7657;
+    font-size: 35pt;
+    font-weight: 600;
+    background-color: #f2f2f2;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 #genderisnotexcuse{
+    margin-left: 200px;
+    float: left;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 #workwithchild{
+    margin-left: 500px;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 #definitionofbeauty{
+    margin-left: 120px;
+    float: left;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 #unclarifiedchoice{
+    margin-left: 50px;
+    float: left;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 #freedomofchoice{
+    margin-left: 640px;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 #responsibleforchoice{
+    margin-left: 240px;
+    float: left;
+  }
+  .container-fluid .row #UnclarifiedChoice .menu-1 #mylessons{
+    margin-left: 500px;
+  }
+  .container-fluid .row #UnclarifiedChoice .title{
+    margin-left: 15%;
+  }
+  .container-fluid .row #UnclarifiedChoice .words1{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .container-fluid .row #UnclarifiedChoice .smalltitle1{
+    margin-left: 15%;
+  }
+  .container-fluid .row #UnclarifiedChoice .words2{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .container-fluid .row #UnclarifiedChoice .smalltitle2{
+    width: 90%;
+    margin-left: 0%;
+  }
+  .container-fluid .row #UnclarifiedChoice .smallsmalltitle{
+    width: 80%;
+  }
+  .container-fluid .row #UnclarifiedChoice .smalltitle3 {
+    width: 80%;
+  }
+
+  .container-fluid #footer #rectangle a i.fab.fa-facebook.fa-lg {
+    color: #665c84;
+    position: absolute;
+    display: inline-block;
+    left: 49%;
+    top: 76.4%;
+    transform: translatex(-50%) translatey(-50%);
+  }
+  .container-fluid #footer #rectangle a i.fab.fa-youtube.fa-lg {
+    color: #ff7657;
+    position: absolute;
+    display: inline-block;
+    left: 51.9%;
+    top: 70.5%;
+  }
+  
+}
