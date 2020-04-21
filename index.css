@@ -17,7 +17,10 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
+nav .navbar-toggler-icon{
+  width: 3em;
+  height: 3em;
+}
 nav .navbar-brand {
   font-size: 18pt;
   color: #ee8572;
@@ -249,6 +252,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 .container-fluid #questionnaire .questionnaire_explanation p {
   text-align: justify;
   text-justify: inter-ideograph;
+  color: #7e7e7e;
 }
 
 .container-fluid #cinema {
@@ -319,6 +323,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 .container-fluid #cinema .cinema_explanation {
   margin-left: 40em;
   margin-top: 10px;
+  
+}
+.container-fluid #cinema .cinema_explanation p{
+  color: #7e7e7e;
 }
 .container-fluid #cinema .cinema_explanation-1 {
   display: none;
@@ -472,6 +480,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   margin-left: 250px;
   margin-top: 50px;
   width: 33.6%;
+  color: #7e7e7e;
 }
 .container-fluid #issues .issues_explanation p {
   text-align: justify;
@@ -914,7 +923,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light #navbarSupportedContent {
     background-color: #fff;
     padding: 0%;
-    margin-top: 20px;
+    margin-top: 16.5px;
     width: 110%;
     margin-left: 0%;
     /*換成手機板時，MARGIN-LEFT要修改*/
@@ -923,8 +932,8 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   #navbarSupportedContent
   .nav-link {
   margin-right: 100px;
-  margin-left: 3px;
-  font-size: large;
+  margin-left: 10px;
+  font-size: 30px;
   width: 90%;
 }
   .container-fluid {
@@ -974,13 +983,13 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #front .firstmorebtn {
     border-radius: 20px;
     height: 50px;
-    width: 110px;
+    width: 120px;
     margin: 0 auto;
     margin-top: 60px;
-    margin-left: 47%;
+    margin-left: 49%;
     background-color: #665c84;
     padding-top: 0.7%;
-    padding-left: 3%;
+    padding-left: 1.9%;
   }
   .container-fluid #front .firstmorebtn a {
     color: #fff;
@@ -1098,6 +1107,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 70%;
     margin-left: 20%;
     margin-top: 5%;
+    color: #7e7e7e;
   }
   .container-fluid #cinema .video1 .cinemaleft2 {
     width: 24%;
@@ -1195,13 +1205,13 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 170px;
     height: 60px;
     border-radius: 44px;
-    margin-top: 105px;
+    margin-top: 100px;
     left: 110px;
     z-index: 5;
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putnameinside p {
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 800;
     padding-top: 11px;
   }
@@ -1214,7 +1224,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 182px;
     left: 140px;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #7e7e7e;
   }
@@ -1257,26 +1267,28 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     width: 70%;
     margin-left: 20%;
+    margin-top: 5%;
   }
   .container-fluid #issues .issues_explanation p {
     text-align: justify;
     text-justify: inter-ideograph;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
   .container-fluid #issues .morebtn {
     border-radius: 31px;
-    height: 40px;
-    width: 99px;
+    height: 50px;
+    width: 120px;
     background-color: #665c84;
     margin: 50px auto;
-    margin-left: 50%;
+    margin-left: 49%;
     display: block;
   }
   .container-fluid #issues .morebtn a {
     color: #fff;
     line-height: 2.1;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     transition-duration: 0.5s;
+    
   }
   .container-fluid #issues .morebtn a:hover {
     color: #ff7657;
@@ -1308,9 +1320,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     width: 70%;
     color: #7e7e7e;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-align: center;
     margin-left: 20%;
+    margin-top: 5%;
   }
   .container-fluid #postoffice .form {
     margin: 0 auto;
