@@ -272,13 +272,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 250px;
   height:354.6px;
 }
-/*.container-fluid .row .fourthpic{
-  position: absolute;
-  margin-top: 105.95%;
-  width: 200px;
-  height:294.6px;
-  right: 16.76%;
-}*/
+.container-fluid .row .thirdpic2 {
+  display: none;
+}
+.container-fluid .row .fourthpic{
+  display: none;
+}
 .container-fluid .row .name04-1 {
   margin-left: 860px;
   margin-top: 250px;
@@ -792,7 +791,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .movingphone .secondpic-1{
     /*position: absolute;*/
-    margin-top: -700px;
+    margin-top: -480px;
     width: 100px;
     height:147.3px;
     /*left: 280px;*/
@@ -824,6 +823,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 53%;
     height:auto;
   }
+  .container-fluid .row .thirdpic2{
+    display: block;
+    position: absolute;
+    margin-top: -100%;
+    width: 100px;
+    height:147.3px;
+    right: 20%;
+  }
   .container-fluid .row .explanation03 {
     display: none;
   }
@@ -843,13 +850,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row .movingitemright03 {
     display: none;
   }
-  /*.container-fluid .row .fourthpic{
+  .container-fluid .row .fourthpic{
+    display: block;
     position: absolute;
-    margin-top: 3100%;
-    width: 200px;
-    height:294.6px;
-    right: 16.76%;
-  }*/
+    margin-top: 40%;
+    width: 100px;
+    height:147.3px;
+    left: 20%;
+  }
   .container-fluid .row .name04-1 {
     width: fit-content;
     margin: 0 auto;

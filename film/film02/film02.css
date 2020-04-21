@@ -247,7 +247,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .name01 p {
     color: #ff7657;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 900;
   }
   .container-fluid .row .explanation {
@@ -259,7 +259,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     left: 150px;
     top: 400px;*/
     color: #7e7e7e;
-    font-size: 1.5rem;
+    font-size: 3rem;
     line-height: 1.8;
     text-align: justify;
     text-justify: auto;
@@ -275,7 +275,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid #footer {
     padding: 0px;
-    margin-top: 50%;
+    margin-top: 65%;
   }
   .container-fluid #footer #rectangle a i.fab.fa-facebook.fa-lg {
     color: #665c84;
