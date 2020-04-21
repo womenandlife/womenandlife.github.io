@@ -1336,7 +1336,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #footer {
     padding: 0px;
     margin-top: 55px;
-    margin-left: 5em;
+    margin-left: 10em;
   }
   .container-fluid #footer #rectangle a i.fab.fa-facebook.fa-lg {
     color: #665c84;
