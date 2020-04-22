@@ -576,6 +576,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #swiper .swiper-container .swiper-slide .putwordsinside .words{
 font-size: 1.5rem;
   }
+  .container-fluid #swiper .swiper-container .swiper-slide .putwordsinside02 .words02{
+    font-size: 1.5rem;
+      }
   .container-fluid #swiper .swiper-container .swiper-slide .morebtn {
     display: none;
   }
@@ -594,12 +597,13 @@ font-size: 1.5rem;
   .putwordsinside04
   .words02{
     position: relative;
+    font-size: 1.5rem;
   }
   .sentence_flex{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 8em;
+    margin-top: 20em;
   }
   .container-fluid #swiper .swiper-container .swiper-slide div .name02 {
     margin:0 auto;
@@ -636,14 +640,9 @@ font-size: 1.5rem;
     position: relative;
     top:0;
     left:0;
-    /* min-width: 800px; */
-    /* margin-top: 200px; */
-    /* margin-left: 120px; */
-    /* position: absolute; */
-    /* display: none; */
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-1 p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-2 {
     margin: 0 auto;
@@ -651,14 +650,9 @@ font-size: 1.5rem;
     position: relative;
     top:0;
     left:0;
-    /* min-width: 800px; */
-    /* margin-top: 580px; */
-    /* margin-left: 190px; */
-    /* position: absolute; */
-    /* display: none; */
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-2 p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-3 {
     margin: 0 auto;
@@ -666,14 +660,9 @@ font-size: 1.5rem;
     position: relative;
     top:0;
     left:0;
-    /* min-width: 800px; */
-    /* margin-top: 280px; */
-    /* margin-left: -80px; */
-    /* position: absolute; */
-    /* display: none; */
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-3 p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-4 {
     margin: 0 auto;
@@ -681,14 +670,9 @@ font-size: 1.5rem;
     position: relative;
     top:0;
     left:0;
-    /* min-width: 800px; */
-    /* margin-top: 55px; */
-    /* margin-left: -30px; */
-    /* position: absolute; */
-    /* display: none; */
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-4 p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-5 {
     margin: 0 auto;
@@ -696,14 +680,9 @@ font-size: 1.5rem;
     position: relative;
     top:0;
     left:0;
-    /* min-width: 800px; */
-    /* margin-top: 8%; */
-    /* margin-left: 100px; */
-    /* position: absolute; */
-    /* display: none; */
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-5 p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-6 {
     margin: 0 auto;
@@ -711,14 +690,9 @@ font-size: 1.5rem;
     position: relative;
     top:0;
     left:0;
-    /* min-width: 800px; */
-    /* margin-top: 20px; */
-    /* margin-left: -200px; */
-    /* position: absolute; */
-    /* display: none; */
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-6 p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-7 {
     margin: 0 auto;
@@ -726,14 +700,9 @@ font-size: 1.5rem;
     position: relative;
     top:0;
     left:0;
-    /* min-width: 800px; */
-    /* margin-top: 20px; */
-    /* margin-left: -200px; */
-    /* position: absolute; */
-    /* display: none; */
   }
   .container-fluid #swiper .swiper-container .swiper-slide .sentence02-7 p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .container-fluid #footer #rectangle a i.fab.fa-facebook.fa-lg {
     color: #665c84;
