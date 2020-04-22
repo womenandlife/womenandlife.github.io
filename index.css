@@ -580,9 +580,13 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 @media (max-width: 1620px) {
   .container-fluid #front img {
-    width: 800px;
+    width: 900px;
     height: auto;
-    margin-left: 350px;
+    margin-left: 330px;
+  }
+  .container-fluid #front .idea_explanation {
+    margin-top: 40px;
+
   }
   .container-fluid #front .firstmorebtn {
     margin-left: 200px;
