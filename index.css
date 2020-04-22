@@ -203,8 +203,8 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 70px;
   height: 70px;
   background-color: #ffba5a;
-  margin-left: 13em;
-  margin-top: -17.3em;
+  margin-left: 14em;
+  margin-top: -8em;
   cursor: pointer;
   z-index: 10;
   animation: showandhide 2s infinite;
@@ -225,7 +225,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   height: 70px;
   background-color: #ffba5a;
   margin-left: 20.5em;
-  margin-top: -25.5em;
+  margin-top: -20em;
   cursor: pointer;
   z-index: 10;
   animation: showandhide 2s infinite;
@@ -440,13 +440,13 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 #talkcafe .box_of_articlehover {
   width: 80em;
   height: 120px;
-  margin-bottom: -150px;
+  margin-bottom: -120px;
+  margin-left: 4em;
   /*border: 1px black solid;*/
 }
 #talkcafe .box_of_articlehover .hoverpicture {
-  width: 85%;
+  width: 100%;
   height: 0;
-  margin-left: 13em;
   margin-top: 7em;
   /*opacity: 1;*/
 }
@@ -594,12 +594,18 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     height: auto;
     margin-left: 380px;
   }
+  .container-fluid #front .webtitle .firstsentence {
+    margin-left: 25%; 
+  }
+  .container-fluid #front .webtitle .secondsentence {
+    margin-left: 35%;
+  }
   .container-fluid #front .idea_explanation {
-    margin-top: 40px;
-
+    margin-top: 35px;
+    margin-left: 12em;
   }
   .container-fluid #front .firstmorebtn {
-    margin-left: 200px;
+    margin-left: 190px;
   }
   .container-fluid #questionnaire {
     padding: 0px;
@@ -617,14 +623,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .goto1stquestion {
     position: absolute;
     margin-left: 13em;
-    margin-top: -13em;
+    margin-top: -15em;
     
   }
   
   .container-fluid .goto2ndquestion {
     position: absolute;
-    margin-left: 19em;
-    margin-top: -21em;
+    margin-left: 19.5em;
+    margin-top: -25em;
   }
   .container-fluid #cinema {
     padding: 0px;
@@ -635,11 +641,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 180px;
   }
   .container-fluid #cinema .cinemaname {
-    margin-left: 33em;
+    margin-left: 40em;
     margin-top: -140px;
   }
   .container-fluid #cinema .cinema_explanation {
-    margin-left: 33em;
+    margin-left: 40em;
     margin-top: 10px;
     
   }
