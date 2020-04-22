@@ -542,9 +542,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #swiper .swiper-container .swiper-slide div .name {
     margin:0 auto;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 0px;
-    margin-top: -80px;
+    margin-top: -100px;
     margin-left: 5%;
     width: fit-content;
     min-width: 600px;
@@ -561,17 +561,20 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid #swiper .swiper-container .swiper-slide .one {
     margin-left: 12em;
-    margin-top: 350px;
-    width: 80%;
-    min-width: 600px;
+    margin-top: 680px;
+    width: 100%;
+    min-width: 700px;
     animation: open_mobile 1s;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .putwordsinside {
     width: 70%;
     min-width: 700px;
     margin: 0 auto;
-    margin-top: -80px;
+    margin-top: -150px;
     margin-left: 1%;
+  }
+  .container-fluid #swiper .swiper-container .swiper-slide .putwordsinside .words{
+font-size: 1.5rem;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .morebtn {
     display: none;

@@ -1498,7 +1498,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     opacity: 1;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket03-1btn {
-    margin-left: 6%;
+    margin-left: 8%;
     /*margin-left: 8%;*/ /*若要讓螢幕最小視窗時 按鈕不會重疊的話就設這個 但一班手機看就會分開*/
     margin-top: 67.2%;
     width: 20%;
@@ -1508,7 +1508,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     z-index: 150;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket03-1btn-hide {
-    margin-left: 6%; 
+    margin-left: 8%; 
     margin-top: 66%;
     width: 20%;
     min-width: 100px;
@@ -1783,7 +1783,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     opacity: 1;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket06-1btn {
-    margin-left: 6%;
+    margin-left: 8%;
     /*margin-left: 8%;*/ /*若要讓螢幕最小視窗時 按鈕不會重疊的話就設這個 但一班手機看就會分開*/
     margin-top: 67.2%;
     width: 20%;
@@ -1793,7 +1793,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     z-index: 150;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket06-1btn-hide {
-    margin-left: 6%; 
+    margin-left: 8%; 
     margin-top: 66%;
     width: 20%;
     min-width: 100px;
