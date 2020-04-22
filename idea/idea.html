@@ -28,7 +28,7 @@
     gtag('config', 'UA-164149743-1');
   </script>
   </head>
-  <body>
+  <body id="skrollr-body">
     <!-- partial:index.partial.html -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="/index.html"
@@ -270,7 +270,24 @@
     <script src="./idea.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script type="text/javascript">
+    if ($('body').width() >= 1200) {
       var s = skrollr.init();
+      if (s.isMobile()) {
+        s.destory();
+      }
+    }
+    document.querySelector('body').addEventListener('resize', () => {
+      if ($('body').width < 1200) {
+        if (s) {
+          s.destory();
+        }
+      } else {
+        s = skrollr.init();
+        if (s.isMobile()) {
+          s.destory();
+        }
+      }
+    })
     </script>
     <script>
       $(function(){
