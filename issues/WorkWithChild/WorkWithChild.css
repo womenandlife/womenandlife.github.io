@@ -416,6 +416,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row #UnclarifiedChoice .smalltitle1{
     margin-left: 15%;
   }
+  .container-fluid .row #UnclarifiedChoice .smalltitle1 p{
+    font-size: 3rem;
+  }
   .container-fluid .row #UnclarifiedChoice .words2{
     width: 70%;
     margin: 0 auto;
