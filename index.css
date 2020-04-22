@@ -604,6 +604,18 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 40em;
     
   }
+  .container-fluid .goto1stquestion {
+    position: absolute;
+    margin-left: 13em;
+    margin-top: -13em;
+    
+  }
+  
+  .container-fluid .goto2ndquestion {
+    position: absolute;
+    margin-left: 19em;
+    margin-top: -21em;
+  }
   .container-fluid #cinema {
     padding: 0px;
     margin-top: 200px;
