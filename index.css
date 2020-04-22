@@ -579,7 +579,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 @media (max-width: 1620px) {
-
+  .container-fluid #front .firstmorebtn {
+    margin-left: 250px;
+  }
   .container-fluid #questionnaire {
     padding: 0px;
     margin-top: 150px;
