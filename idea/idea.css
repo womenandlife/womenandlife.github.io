@@ -626,6 +626,81 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*手機板~*/
 @media (max-width: 1200px) {
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
@@ -762,24 +837,6 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row .movingphone {
     display: block;
   }
-  /*.container-fluid .row .morebtn2 {
-    border-radius: 31px;
-    height: 40px;
-    width: 99px;
-    background-color: #665c84;
-    margin: 50px auto;
-    margin-top: 70px;
-    cursor: pointer;
-    padding-left: 1.9%;
-    z-index: 5;
-  }
-  .container-fluid .row .morebtn2 p {
-    color: #fff;
-    line-height: 2.2;
-    font-size: 1.1rem;
-    transition-duration: 0.5s;
-    text-decoration: none;
-  }*/
   .container-fluid .row .name03 {
     width: fit-content;
     margin: 0 auto;
@@ -1031,17 +1088,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     right: 25%;
   }
   .container-fluid .row .sixthpic {
-    width: 200px;
-    height: 294.6px;
-    right: 18%;
     display: none;
   }
   .container-fluid .row .sixthpic-1 {
-    display: block;
-    width: 100px;
-    height: 147.3px;
-    margin-left: 63%;
-    margin-top: -45%;
+    display: none;
   }
   .container-fluid .topbtn {
     border-radius: 9px;
