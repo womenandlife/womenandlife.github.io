@@ -3,14 +3,12 @@
   font-family: 微軟正黑體;
 }
 
-
-
 body {
   background-color: #fcf9ed;
   display: flex;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  height: 2000px ! important;
+  height: 2000px !important;
 }
 
 nav .navbar-brand {
@@ -18,11 +16,11 @@ nav .navbar-brand {
   color: #ee8572;
   right: 5%;
   line-height: 1.22;
-  text-align: left;   
+  text-align: left;
   font-weight: bold;
-  font-family: 'M PLUS Rounded 1c', '微軟正黑體';
+  font-family: "M PLUS Rounded 1c", "微軟正黑體";
 }
-nav .navbar-toggler-icon{
+nav .navbar-toggler-icon {
   width: 3em;
   height: 3em;
 }
@@ -42,10 +40,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light a {
   font-weight: 600;
   margin-left: 2%;
 }
-nav.navbar.fixed-top.navbar-expand-lg.navbar-light a .workwell{
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light a .workwell {
   color: #ff7657;
   margin-bottom: -20%;
-  font-family: 'M PLUS Rounded 1c', '微軟正黑體';
+  font-family: "M PLUS Rounded 1c", "微軟正黑體";
 }
 nav.navbar.fixed-top.navbar-expand-lg.navbar-light a:hover {
   color: #ff7657;
@@ -96,7 +94,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: fit-content;
   margin-left: 200px;
 }
-.container-fluid .row .firstpic{
+.container-fluid .row .firstpic {
   /*position: absolute;*/
   margin: 50px 50px 100px 800px;
   width: 500px;
@@ -124,13 +122,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   text-decoration: none;
 }
 .container-fluid .row .backbtn a:hover {
-    color: #fff;
-    font-size: 1.3rem;
-    line-height: 1.9;
-  } .backbtn a:hover {
-    color: #fff;
-    font-size: 1.3rem;
-    line-height: 1.9;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.9;
+}
+.backbtn a:hover {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.9;
 }
 .container-fluid .row .morebtn {
   border-radius: 31px;
@@ -166,7 +165,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   font-weight: 900;
 }
 .container-fluid .row .explanation02 {
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 700px;
   color: #7e7e7e;
   font-size: 1rem;
@@ -175,11 +174,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 .container-fluid .row .explanation02-1 {
   display: none;
 }
-.container-fluid .row .secondpic{
+.container-fluid .row .secondpic {
   position: absolute;
   margin-top: -300px;
   width: 200px;
-  height:294.6px;
+  height: 294.6px;
   left: 350px;
   z-index: 5;
   display: block;
@@ -211,10 +210,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   height: auto;
   transform: rotateZ(110deg);
 }
-.container-fluid .row .movingphone{
+.container-fluid .row .movingphone {
   display: none;
 }
-.container-fluid .row .movingphone img{
+.container-fluid .row .movingphone img {
   display: none;
 }
 .container-fluid .row .name03 {
@@ -246,7 +245,6 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   margin-top: -35%;
   /*display: none;*/
   position: absolute;
-  
 }
 .container-fluid .row .movingitemleft03 img {
   width: 100%;
@@ -266,16 +264,16 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 70%;
   height: auto;
 }
-.container-fluid .row .thirdpic{
+.container-fluid .row .thirdpic {
   margin-top: -8px;
   margin-left: 800px;
   width: 250px;
-  height:354.6px;
+  height: 354.6px;
 }
 .container-fluid .row .thirdpic2 {
   display: none;
 }
-.container-fluid .row .fourthpic{
+.container-fluid .row .fourthpic {
   display: none;
 }
 .container-fluid .row .name04-1 {
@@ -320,11 +318,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   height: auto;
   transform: rotateZ(-40deg);
 }
-.container-fluid .row .fifthpic-1{
+.container-fluid .row .fifthpic-1 {
   margin-left: 555px;
   margin-top: -700px;
   width: 110px;
-  height:110px;
+  height: 110px;
   border-radius: 50%;
 }
 .photos .ourname01 {
@@ -361,11 +359,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   text-decoration: none;
   font-weight: 600;
 }
-.container-fluid .row .fifthpic-2{
+.container-fluid .row .fifthpic-2 {
   margin-left: 430px;
   margin-top: 20px;
   width: 110px;
-  height:110px;
+  height: 110px;
   right: 65%;
   border-radius: 50%;
 }
@@ -403,11 +401,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   text-decoration: none;
   font-weight: 600;
 }
-.container-fluid .row .fifthpic-3{
+.container-fluid .row .fifthpic-3 {
   margin-left: 680px;
   margin-top: -338px;
   width: 110px;
-  height:110px;
+  height: 110px;
   border-radius: 50%;
 }
 .photos .ourname03 {
@@ -464,14 +462,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   text-align: justify;
   text-justify: inter-ideograph;
 }
-.container-fluid .row .sixthpic{
+.container-fluid .row .sixthpic {
   margin-top: -300px;
   width: 200px;
   margin-left: 920px;
-  height:294.6px;
+  height: 294.6px;
   right: 18%;
 }
-.container-fluid .row .sixthpic-1{
+.container-fluid .row .sixthpic-1 {
   display: none;
 }
 .container-fluid .row .movingitemleft05 {
@@ -482,7 +480,6 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   margin-top: -20%;
   /*display: none;*/
   position: absolute;
-  
 }
 .container-fluid .row .movingitemleft05 img {
   width: 100%;
@@ -501,6 +498,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 70%;
   height: auto;
   transform: rotateZ(10deg);
+}
+.container-fluid .row .fifthpic_alice {
+  display: none;
 }
 .container-fluid .topbtn {
   border-radius: 9px;
@@ -557,32 +557,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   margin-top: 170px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:1800px){
+@media (min-width: 1800px) {
   .container-fluid .row .name01 {
     /*position: absolute;
     left: 15%;*/
@@ -599,7 +574,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: fit-content;
     margin-left: 400px;
   }
-  .container-fluid .row .firstpic{
+  .container-fluid .row .firstpic {
     /*position: absolute;*/
     margin: 50px 50px 100px 1000px;
     width: 500px;
@@ -651,31 +626,8 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*手機板~*/
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
     background-color: #fff;
     height: 115px;
@@ -699,20 +651,20 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     /*換成手機板時，MARGIN-LEFT要修改*/
   }
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light
-  #navbarSupportedContent
-  .nav-link {
-  margin-right: 100px;
-  margin-left: 4%;
-  font-size: 50px;
-  margin-top: 2%;
-  width: 90%;
-}
+    #navbarSupportedContent
+    .nav-link {
+    margin-right: 100px;
+    margin-left: 4%;
+    font-size: 50px;
+    margin-top: 2%;
+    width: 90%;
+  }
   .container-fluid {
     margin-top: 60px;
     padding: 0px;
     width: 97.5%;
   }
-  .container-fluid .row .firstpic{
+  .container-fluid .row .firstpic {
     /*position: absolute;*/
     margin: 100px auto 50px 9%;
     width: 80%;
@@ -763,7 +715,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     text-decoration: none;
   }
   .container-fluid .row .name02 {
-    margin:200px auto;
+    margin: 200px auto;
     margin-bottom: 50px;
     width: fit-content;
     z-index: 5;
@@ -786,14 +738,17 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     text-justify: auto;
     display: block;
   }
-  .container-fluid .row .secondpic{
+  .container-fluid .row .secondpic {
     display: none;
   }
-  .container-fluid .row .movingphone .secondpic-1{
+  .container-fluid .row .moving {
+    display: none;
+  }
+  .container-fluid .row .movingphone .secondpic-1 {
     /*position: absolute;*/
     margin-top: -520px;
     width: 100px;
-    height:147.3px;
+    height: 147.3px;
     /*left: 280px;*/
     display: block;
     margin-left: 200px;
@@ -804,7 +759,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row .movingitemright02 {
     display: none;
   }
-  .container-fluid .row .movingphone{
+  .container-fluid .row .movingphone {
     display: block;
   }
   /*.container-fluid .row .morebtn2 {
@@ -836,17 +791,17 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     font-size: 2.5rem;
     font-weight: 900;
   }
-  .container-fluid .row .thirdpic{
+  .container-fluid .row .thirdpic {
     margin: 20px auto 50px 25%;
     width: 53%;
-    height:auto;
+    height: auto;
   }
-  .container-fluid .row .thirdpic2{
+  .container-fluid .row .thirdpic2 {
     display: block;
     position: absolute;
     margin-top: -100%;
     width: 100px;
-    height:147.3px;
+    height: 147.3px;
     right: 20%;
   }
   .container-fluid .row .explanation03 {
@@ -868,12 +823,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row .movingitemright03 {
     display: none;
   }
-  .container-fluid .row .fourthpic{
+  .container-fluid .row .fourthpic {
     display: block;
     position: absolute;
     margin-top: 40%;
     width: 100px;
-    height:147.3px;
+    height: 147.3px;
     left: 20%;
   }
   .container-fluid .row .name04-1 {
@@ -916,10 +871,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row .movingitemright04 {
     display: none;
   }
-  .container-fluid .row .fifthpic-1{
+  .container-fluid .row .fifthpic-1 {
     margin: 70px auto 20px 28%;
     width: 45%;
-    height:auto;
+    height: auto;
   }
   .photos .ourname01 {
     border-radius: 40px;
@@ -955,11 +910,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     text-decoration: none;
     font-weight: 600;
   }
-  .container-fluid .row .fifthpic-2{
+  .container-fluid .row .fifthpic-2 {
     margin: 70px auto 20px 28%;
     margin-top: 100px;
     width: 45%;
-    height:auto;
+    height: auto;
   }
   .photos .ourname02 {
     border-radius: 40px;
@@ -995,11 +950,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     text-decoration: none;
     font-weight: 600;
   }
-  .container-fluid .row .fifthpic-3{
+  .container-fluid .row .fifthpic-3 {
     margin: 70px auto 20px 28%;
     margin-top: 100px;
     width: 45%;
-    height:auto;
+    height: auto;
   }
   .photos .ourname03 {
     border-radius: 40px;
@@ -1055,22 +1010,36 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 65%;
     text-align: justify;
   }
+  .container-fluid .row .moving2 {
+    display: none;
+  }
+  .container-fluid .row .movingphone2 {
+    display: none;
+  }
   .container-fluid .row .movingitemright05 {
     display: none;
   }
   .container-fluid .row .movingitemleft05 {
     display: none;
   }
-  .container-fluid .row .sixthpic{
+  .container-fluid .row .fifthpic_alice {
+    display: block;
+    position: absolute;
+    margin-top: 20%;
+    width: 100px;
+    height: 147.3px;
+    right: 25%;
+  }
+  .container-fluid .row .sixthpic {
     width: 200px;
-    height:294.6px;
+    height: 294.6px;
     right: 18%;
     display: none;
   }
-  .container-fluid .row .sixthpic-1{
+  .container-fluid .row .sixthpic-1 {
     display: block;
     width: 100px;
-    height:147.3px;
+    height: 147.3px;
     margin-left: 63%;
     margin-top: -45%;
   }
