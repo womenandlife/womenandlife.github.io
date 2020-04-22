@@ -578,11 +578,22 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
-@media (min-width: 1600px) {
+@media (min-width: 1620px) {
 
   .container-fluid #questionnaire {
     padding: 0px;
     margin-top: 150px;
+  }
+  .container-fluid #questionnaire .questionnairename {
+    margin-top: -400px;
+    margin-left: 40em;
+    margin-bottom: 350px;
+  }
+  .container-fluid #questionnaire .questionnaire_explanation {
+    margin-left: 40em;
+    margin-top: -330px;
+    margin-bottom: 100px;
+    width: 35.6%;
   }
   .container-fluid #cinema {
     padding: 0px;
