@@ -1498,7 +1498,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     opacity: 1;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket03-1btn {
-    margin-left: 11%;
+    margin-left: 6%;
     /*margin-left: 8%;*/ /*若要讓螢幕最小視窗時 按鈕不會重疊的話就設這個 但一班手機看就會分開*/
     margin-top: 67.2%;
     width: 20%;
@@ -1508,7 +1508,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     z-index: 150;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket03-1btn-hide {
-    margin-left: 13%; 
+    margin-left: 6%; 
     margin-top: 66%;
     width: 20%;
     min-width: 100px;
@@ -1540,6 +1540,8 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     height: 23%;
     min-height: 300px;
     border: solid 1px #707070;
+    background-color: #fff;
+    z-index: 2000;
   }
   .container-fluid
     #swiper
@@ -1781,18 +1783,18 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     opacity: 1;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket06-1btn {
-    margin-left: 11%;
+    margin-left: 6%;
     /*margin-left: 8%;*/ /*若要讓螢幕最小視窗時 按鈕不會重疊的話就設這個 但一班手機看就會分開*/
-    margin-top: 69%;
+    margin-top: 67.2%;
     width: 20%;
     min-width: 100px;
     height: 70px;
     border: none;
-    z-index: 5;
+    z-index: 150;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket06-1btn-hide {
-    margin-left: 13%; 
-    margin-top: 68%;
+    margin-left: 6%; 
+    margin-top: 66%;
     width: 20%;
     min-width: 100px;
     height: 50px;
@@ -1801,7 +1803,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket06-2btn {
     margin-left: 20%;
-    margin-top: 68%;
+    margin-top: 66%;
     width: 20%;
     min-width: 100px;
     height: 50px;
@@ -1809,20 +1811,22 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket06-2btn-show {
     margin-left: 20%;
-    margin-top: 69%;
+    margin-top: 67.2%;
     width: 20%;
     min-width: 100px;
     height: 70px;
     border: none;
-    z-index: 5;
+    z-index: 150;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .basket06 {
     margin-left: 3%;
     margin-top: 67.5%;
     width: 60%;
-    height: 12%;
+    height: 18%;
     min-height: 250px;
     border: solid 1px #707070;
+    background-color: #fff;
+    z-index: 2000;
   }
   .container-fluid
     #swiper
@@ -1834,6 +1838,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 10%;
     opacity: 1;
     z-index: 10;
+    font-size: 1.8rem;
   }
   .container-fluid
     #swiper
@@ -1852,6 +1857,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     color: #7e7e7e;
     margin-top: 10%;
     opacity: 0;
+    font-size: 1.8rem;
   }
   .container-fluid
     #swiper
@@ -1865,7 +1871,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     position: static;
     margin:0 auto;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     /*bottom: -550px;*/
     /* margin-top: -150px; */
    /* margin-left: 33.3%;*/
@@ -1879,6 +1885,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: -80px;
     left: 26%;
   } */
+  .container-fluid #swiper .swiper-container .swiper-slide #putwordsinside07 .words04{
+    font-size: 1.8rem;
+  }
   .container-fluid
   #swiper
   .swiper-container
@@ -1893,7 +1902,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .swiper-container
   .swiper-slide .wordspic07 img{
     position: relative;
-    width: 500px;
+    width: 600px;
     height: auto;
     margin-top: 350px;
     margin-left: -550px;
