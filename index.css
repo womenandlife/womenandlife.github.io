@@ -587,15 +587,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 150px;
   }
   .container-fluid #questionnaire .questionnairename {
-    margin-top: -400px;
+    margin-top: -340px;
     margin-left: 40em;
     margin-bottom: 350px;
-  }
-  .container-fluid #questionnaire .questionnaire_explanation {
-    margin-left: 40em;
-    margin-top: -330px;
-    margin-bottom: 100px;
-    width: 35.6%;
   }
   .container-fluid #cinema {
     padding: 0px;
@@ -604,6 +598,32 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #postoffice {
     padding: 0px;
     margin-top: 180px;
+  }
+  .container-fluid #cinema .cinemaname {
+    margin-left: 35em;
+    margin-top: -140px;
+  }
+  .container-fluid #cinema .cinema_explanation {
+    margin-left: 35em;
+    margin-top: 10px;
+    
+  }
+  #talkcafe .box_of_articlehover {
+    width: 80em;
+    height: 120px;
+    margin-bottom: -150px;
+    /*border: 1px black solid;*/
+  }
+  #talkcafe .box_of_articlehover .hoverpicture {
+    width: 70%;
+    height: 0;
+    margin-left: 13em;
+    margin-top: 7em;
+    /*opacity: 1;*/
+  }
+  
+  #talkcafe:hover .hoverpicture {
+    height: auto;
   }
 }
 
