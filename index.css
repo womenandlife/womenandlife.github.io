@@ -1477,7 +1477,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 170px;
     height: 60px;
     border-radius: 44px;
-    margin-top: 100px;
+    margin-top: 160px;
     left: 110px;
     z-index: 5;
   }
@@ -1493,7 +1493,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     .swiper-slide
     .putoccupationinside {
     position: absolute;
-    margin-top: 182px;
+    margin-top: 242px;
     left: 140px;
     text-align: left;
     font-size: 1.6rem;
@@ -1502,6 +1502,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   #talkcafe .swiper-container .swiper-pagination-bullet-active {
     background-color: #665c84;
+  }
+  #talkcafe .swiper-container .swiper-pagination {
+    bottom: 50px;
   }
   #talkcafe .swiper-container .swiper-button-next {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23707070'%2F%3E%3C%2Fsvg%3E");

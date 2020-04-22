@@ -288,9 +288,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 }
 .container-fluid #swiper .swiper-container .swiper-slide .sentence02-2 {
   position: absolute;
-  left: 60%;
+  left: 30%;
   top: 25.3%;
-  width: 40%;
+  width: 100%;
 }
 .container-fluid #swiper .swiper-container .swiper-slide .sentence02-2 p {
   color: #ffba5a;
@@ -315,7 +315,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 .container-fluid #swiper .swiper-container .swiper-slide .sentence02-4 {
   position: absolute;
   left: 51%;
-  top: 47%;
+  top: 49%;
   width: 70%;
   display: block;
 }
@@ -1099,14 +1099,20 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
-@media (max-width: 1420px){
+@media (max-width: 1450px){
   #myChart {
-    width: 100%;
-    min-width: 1500px;
-    height: 30%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-left: 30%;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 10px;
+  }
+  .container-fluid #swiper .swiper-container .swiper-slide .sentence02-8 {
+    display: block;
+    position: absolute;
+    left: 37.5%;
+    top: 47%;
+    width: 40%;
   }
 }
 
@@ -1398,6 +1404,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     height: 30%;
     margin: 0 auto;
     margin-top: 430px;
+    z-index: -1000;
   }
   .container-fluid #swiper .swiper-container .swiper-slide .morebtn {
     display: none;
