@@ -185,33 +185,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1550px) {
+@media (min-width: 1520px) and (max-width: 1600px)  {
   .container-fluid .row .backbtn {
     margin: 12px 0px 0px 1200px;
   }
@@ -220,29 +194,6 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-bottom: 0px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
