@@ -343,17 +343,44 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 70%;
     margin-left: 15%;
   }
+  .container-fluid .row #UnclarifiedChoice .title p{
+    font-size: 4rem;
+  }
   .container-fluid .row #UnclarifiedChoice .words1{
     width: 70%;
     margin: 0 auto;
+    font-size: 3rem;
   }
   .container-fluid .row #UnclarifiedChoice .smalltitle1{
-    width: 70%;
+    width: 80%;
     margin-left: 15%;
+  }
+  .container-fluid .row #UnclarifiedChoice .smalltitle1 p{
+    font-size: 3.5rem;
+  }
+  .container-fluid .row #UnclarifiedChoice .smalltitle2{
+    width: 80%;
+    margin-left: 0%;
+  }
+  .container-fluid .row #UnclarifiedChoice .smalltitle2 p{
+    font-size: 3.5rem;
   }
   .container-fluid .row #UnclarifiedChoice .words2{
     width: 70%;
     margin: 0 auto;
+    font-size: 3rem;
+  }
+  .container-fluid .row #UnclarifiedChoice .words4{
+    margin-top: 15%;
+  }
+  .container-fluid .row #UnclarifiedChoice .form{
+    position: relative;
+    left: -5%;
+    top: 2.5%;
+  }
+  .container-fluid .row #UnclarifiedChoice .form img{
+    width: 110%;
+    height: auto;
   }
   .container-fluid #footer #rectangle a i.fab.fa-facebook.fa-lg {
     color: #665c84;
