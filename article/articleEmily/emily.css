@@ -444,7 +444,7 @@ img{
   }
   .container-fluid .row .title p {
     color: #ff7657;
-    font-size: 1.8rem;
+    font-size: 4rem;
   }
   .container-fluid .row .photo1{
     margin-left: 17.5%;
@@ -479,20 +479,32 @@ img{
     height: auto;
   }
   .container-fluid .row .small-title1 {
-    width: 100%;
+    width: 80%;
     left: 18.5%;
+  }
+  .container-fluid .row .small-title1 p {
+    font-size: 3.3rem;
   }
   .container-fluid .row .small-title2 {
-    width: 100%;
+    width: 80%;
     left: 18.5%;
+  }
+  .container-fluid .row .small-title2 p {
+    font-size: 3.3rem;
   }
   .container-fluid .row .small-title3 {
-    width: 100%;
+    width: 80%;
     left: 18.5%;
   }
+  .container-fluid .row .small-title3 p {
+    font-size: 3.3rem;
+  }
   .container-fluid .row .small-title4 {
-    width: 100%;
+    width: 80%;
     left: 18.5%;
+  }
+  .container-fluid .row .small-title4 p {
+    font-size: 3.3rem;
   }
   .container-fluid .row .words1 {
     position: relative;
@@ -500,6 +512,9 @@ img{
     margin-top: 2%;
     width: 80%;
     margin-left: 1%;
+  }
+  .container-fluid .row .words1 p {
+    font-size: 3rem;
   }
   .container-fluid .row .words2 {
     position: relative;
@@ -556,11 +571,17 @@ img{
     width: fit-content;
     margin-top: 100px;
   }
+  .container-fluid .row .readmore p {
+    font-size: 4rem;
+  }
   /*下為wiper*/
   .container{
     margin:0 auto;
     margin-left: 20.3%;
     margin-top: 50px;
+  }
+  .container .glide__slide p {
+    font-size: 2.5rem;
   }
   .container-fluid .row .backbtn {
     display: none;

@@ -10,7 +10,7 @@ body {
   scroll-behavior: smooth;
   height: auto;
 }
-nav .navbar-toggler-icon{
+nav .navbar-toggler-icon {
   width: 3em;
   height: 3em;
 }
@@ -22,7 +22,7 @@ nav .navbar-brand {
   line-height: 1.22;
   text-align: left;
   font-weight: bold;
-  font-family: 'M PLUS Rounded 1c', '微軟正黑體';
+  font-family: "M PLUS Rounded 1c", "微軟正黑體";
 }
 
 nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
@@ -46,10 +46,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light a:hover {
   color: #ff7657;
   transform: scale(1.1);
 }
-nav.navbar.fixed-top.navbar-expand-lg.navbar-light a .workwell{
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light a .workwell {
   color: #ff7657;
   margin-bottom: -20%;
-  font-family: 'M PLUS Rounded 1c', '微軟正黑體';
+  font-family: "M PLUS Rounded 1c", "微軟正黑體";
 }
 nav.navbar.fixed-top.navbar-expand-lg.navbar-light #here {
   color: #ff7657;
@@ -85,12 +85,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   font-weight: 900;
   text-align: center;
 }
-.container-fluid .row .photo1{
+.container-fluid .row .photo1 {
   position: relative;
   margin-left: 26.5%;
   margin-top: 40px;
 }
-.container-fluid .row .photo1 img{
+.container-fluid .row .photo1 img {
   width: 65%;
   height: auto;
 }
@@ -101,8 +101,8 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   margin-top: 2%;
   width: 65%;
 }
-.container-fluid .row .words1 p{
-  margin:0 auto;
+.container-fluid .row .words1 p {
+  margin: 0 auto;
   margin-top: 30px;
   color: #7e7e7e;
   font-size: 1rem;
@@ -130,7 +130,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 65%;
   line-height: 1.8;
 }
-.container-fluid .row .words2 p{
+.container-fluid .row .words2 p {
   color: #7e7e7e;
   font-size: 1rem;
   font-weight: normal;
@@ -156,19 +156,19 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 65%;
   line-height: 1.8;
 }
-.container-fluid .row .words3 p{
+.container-fluid .row .words3 p {
   color: #7e7e7e;
   font-size: 1rem;
   font-weight: normal;
   text-align: justify;
   text-justify: inter-ideograph;
 }
-.container-fluid .row .photo2{
+.container-fluid .row .photo2 {
   position: relative;
   margin-left: 26.5%;
   margin-top: 30px;
 }
-.container-fluid .row .photo2 img{
+.container-fluid .row .photo2 img {
   width: 65%;
   height: auto;
 }
@@ -176,23 +176,23 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   position: relative;
   left: 17.5%;
   right: 17.5%;
-  margin-top:40px;
+  margin-top: 40px;
   width: 65%;
   line-height: 1.8;
 }
-.container-fluid .row .words4 p{
+.container-fluid .row .words4 p {
   color: #7e7e7e;
   font-size: 1rem;
   font-weight: normal;
   text-align: justify;
   text-justify: inter-ideograph;
 }
-.container-fluid .row .photo3{
+.container-fluid .row .photo3 {
   position: relative;
   margin-left: 26.5%;
   margin-top: 30px;
 }
-.container-fluid .row .photo3 img{
+.container-fluid .row .photo3 img {
   width: 65%;
   height: auto;
 }
@@ -215,19 +215,19 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 65%;
   line-height: 1.8;
 }
-.container-fluid .row .words5 p{
+.container-fluid .row .words5 p {
   color: #7e7e7e;
   font-size: 1rem;
   font-weight: normal;
   text-align: justify;
   text-justify: inter-ideograph;
 }
-.container-fluid .row .photo4{
+.container-fluid .row .photo4 {
   position: relative;
   margin-left: 26.5%;
   margin-top: 30px;
 }
-.container-fluid .row .photo4 img{
+.container-fluid .row .photo4 img {
   width: 65%;
   height: auto;
 }
@@ -250,7 +250,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 65%;
   line-height: 1.8;
 }
-.container-fluid .row .words6 p{
+.container-fluid .row .words6 p {
   color: #7e7e7e;
   font-size: 1rem;
   font-weight: normal;
@@ -276,13 +276,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   text-decoration: none;
 }
 .container-fluid .row .backbtn a:hover {
-    color: #fff;
-    font-size: 1.3rem;
-    line-height: 1.9;
-  } .backbtn a:hover {
-    color: #fff;
-    font-size: 1.3rem;
-    line-height: 1.9;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.9;
+}
+.backbtn a:hover {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.9;
 }
 .container-fluid .row .readmore {
   position: relative;
@@ -295,21 +296,21 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   font-size: 2rem;
   font-weight: 700;
 }
-#article .container{
+#article .container {
   justify-content: center;
   align-items: center;
   width: 80%;
 }
-img{
+img {
   width: 100%;
 }
-.glide__slides{
+.glide__slides {
   top: 10px;
 }
-.glide__slide a{
-  text-decoration:none;
+.glide__slide a {
+  text-decoration: none;
 }
-.glide__slide a p{
+.glide__slide a p {
   font-size: 1rem;
   justify-content: center;
   color: #7e7e7e;
@@ -359,9 +360,11 @@ img{
 
 
 
+
+
 /*以下為手機板*/
-@media (max-width: 1200px){
-  body{
+@media (max-width: 1200px) {
+  body {
     overflow: scroll;
   }
   html {
@@ -390,14 +393,14 @@ img{
     /*換成手機板時，MARGIN-LEFT要修改*/
   }
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light
-  #navbarSupportedContent
-  .nav-link {
-  margin-right: 100px;
-  margin-left: 4%;
-  font-size: 50px;
-  margin-top: 2%;
-  width: 90%;
-}
+    #navbarSupportedContent
+    .nav-link {
+    margin-right: 100px;
+    margin-left: 4%;
+    font-size: 50px;
+    margin-top: 2%;
+    width: 90%;
+  }
   .container-fluid {
     margin-top: 60px;
     padding: 0px;
@@ -416,61 +419,61 @@ img{
     color: #ff7657;
     font-size: 4rem;
   }
-  .container-fluid .row .photo1{
+  .container-fluid .row .photo1 {
     margin-left: 17.5%;
     margin-top: 40px;
   }
-  .container-fluid .row .photo1 img{
+  .container-fluid .row .photo1 img {
     width: 100%;
     height: auto;
   }
-  .container-fluid .row .photo2{
+  .container-fluid .row .photo2 {
     margin-left: 17.5%;
     margin-top: 40px;
   }
-  .container-fluid .row .photo2 img{
+  .container-fluid .row .photo2 img {
     width: 100%;
     height: auto;
   }
-  .container-fluid .row .photo3{
+  .container-fluid .row .photo3 {
     margin-left: 17.5%;
     margin-top: 40px;
   }
-  .container-fluid .row .photo3 img{
+  .container-fluid .row .photo3 img {
     width: 100%;
     height: auto;
   }
-  .container-fluid .row .photo4{
+  .container-fluid .row .photo4 {
     margin-left: 17.5%;
     margin-top: 40px;
   }
-  .container-fluid .row .photo4 img{
+  .container-fluid .row .photo4 img {
     width: 100%;
     height: auto;
   }
   .container-fluid .row .small-title1 {
     left: 18.5%;
   }
-  .container-fluid .row .small-title1 p{
-    font-size: 3rem;
+  .container-fluid .row .small-title1 p {
+    font-size: 3.3rem;
   }
   .container-fluid .row .small-title2 {
     left: 18.5%;
   }
-  .container-fluid .row .small-title2 p{
-    font-size:3rem;
+  .container-fluid .row .small-title2 p {
+    font-size: 3.3rem;
   }
   .container-fluid .row .small-title3 {
     left: 18.5%;
   }
-  .container-fluid .row .small-title3 p{
-    font-size: 3rem;
+  .container-fluid .row .small-title3 p {
+    font-size: 3.3rem;
   }
   .container-fluid .row .small-title4 {
     left: 18.5%;
   }
-  .container-fluid .row .small-title4 p{
-    font-size: 3rem;
+  .container-fluid .row .small-title4 p {
+    font-size: 3.3rem;
   }
   .container-fluid .row .words1 {
     position: relative;
@@ -479,61 +482,26 @@ img{
     width: 80%;
     margin-left: 1%;
   }
-  .container-fluid .row .words1 p{
-font-size: 3rem;
+  .container-fluid .row .words1 p {
+    font-size: 3rem;
   }
-  /*.container-fluid .row .words2 {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2%;
-    width: 80%;
-    margin-left: 1%;
-  }
-  .container-fluid .row .words3 {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2%;
-    width: 80%;
-    margin-left: 1%;
-  }
-  .container-fluid .row .words4 {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2%;
-    width: 80%;
-    margin-left: 1%;
-  }
-  .container-fluid .row .words5 {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2%;
-    width: 80%;
-    margin-left: 1%;
-  }
-  .container-fluid .row .words6 {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2%;
-    width: 80%;
-    margin-left: 1%;
-  }*/
   .container-fluid .row .readmore {
     position: relative;
     margin: 0 auto;
     width: fit-content;
     margin-top: 100px;
   }
-  .container-fluid .row .readmore p{
+  .container-fluid .row .readmore p {
     font-size: 4rem;
   }
   /*下為wiper*/
-  .container{
-    margin:0 auto;
+  .container {
+    margin: 0 auto;
     margin-left: 20.3%;
     margin-top: 50px;
   }
-  .container .glide__slide p{
-font-size: 2.5rem;
+  .container .glide__slide p {
+    font-size: 2.5rem;
   }
   .container-fluid .row .backbtn {
     display: none;
@@ -558,5 +526,4 @@ font-size: 2.5rem;
     left: 52%;
     top: 20%;
   }
-
 }
