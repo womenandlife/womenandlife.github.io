@@ -578,7 +578,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
-@media (max-width: 1420px) {
+@media (max-width: 1550px) {
   .container-fluid #front img {
     width: 900px;
     height: auto;
