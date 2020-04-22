@@ -590,7 +590,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 @media (max-width: 1550px) {
   .container-fluid #front img {
-    width: 950px;
+    width: 1000px;
     height: auto;
     margin-left: 380px;
   }

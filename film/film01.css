@@ -189,6 +189,66 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1550px) {
+  .container-fluid .row .backbtn {
+    margin: 12px 0px 0px 1200px;
+  }
+  .container-fluid #footer {
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*手機板~*/
 @media (max-width: 1200px){
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light {
