@@ -393,17 +393,25 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row #DenfinitionOfBeauty .title{
     margin-left: 15%;
   }
+  .container-fluid .row #DenfinitionOfBeauty .title p{
+    font-size: 4rem;
+  }
   .container-fluid .row #DenfinitionOfBeauty .words{
     width: 70%;
     margin: 0 auto;
+    font-size: 3rem;
   }
   .container-fluid .row #DenfinitionOfBeauty .smalltitle1{
     margin-left: 15%;
     width: 80%;
   }
+  .container-fluid .row #DenfinitionOfBeauty .smalltitle1 p{
+font-size: 3.5rem;
+  }
   .container-fluid .row #DenfinitionOfBeauty .words2{
     width: 70%;
     margin: 0 auto;
+    font-size: 3rem;
   }
   .container-fluid .row #DenfinitionOfBeauty .smalltitle2{
     margin-left: 15%;
@@ -412,6 +420,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row #DenfinitionOfBeauty .words3{
     width: 70%;
     margin: 0 auto;
+    font-size: 3rem;
   }
   .container-fluid .row #DenfinitionOfBeauty .smalltitle3{
     margin-left: 15%;
@@ -420,6 +429,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row #DenfinitionOfBeauty .words4{
     width: 70%;
     margin: 0 auto;
+    font-size: 3rem;
   }
   .container-fluid #footer #rectangle a i.fab.fa-facebook.fa-lg {
     color: #665c84;
