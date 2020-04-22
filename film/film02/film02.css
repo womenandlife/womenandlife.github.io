@@ -192,10 +192,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
-@media (min-width: 1500px) and (max-width: 1600px)  {
+@media (min-width: 1450px) and (max-width: 1600px)  {
   .container-fluid .row .backbtn {
-    margin: 12px 150px 0px 1350px;
-    margin-right: -50%;
+    margin-right: 20em;
   }
   .container-fluid #footer {
     padding: 0px;

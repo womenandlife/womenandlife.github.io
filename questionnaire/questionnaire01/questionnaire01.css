@@ -1099,6 +1099,23 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
+@media (max-width: 1420px){
+  #myChart {
+    width: 100%;
+    min-width: 1500px;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 30%;
+  }
+}
+
+
+
+
+
+
+
 
 
 
