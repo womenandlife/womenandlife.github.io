@@ -578,6 +578,39 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
+@media (min-width: 1600px) {
+
+  .container-fluid #questionnaire {
+    padding: 0px;
+    margin-top: 150px;
+  }
+  .container-fluid #cinema {
+    padding: 0px;
+    margin-top: 180px;
+  }
+  .container-fluid #postoffice {
+    padding: 0px;
+    margin-top: 180px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1800px) {
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light a {
     color: #ffba5a;
