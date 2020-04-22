@@ -578,7 +578,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
-@media (min-width: 1620px) {
+@media (max-width: 1620px) {
 
   .container-fluid #questionnaire {
     padding: 0px;
@@ -597,7 +597,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid #cinema {
     padding: 0px;
-    margin-top: 180px;
+    margin-top: 200px;
   }
   .container-fluid #postoffice {
     padding: 0px;
