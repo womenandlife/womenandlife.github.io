@@ -405,9 +405,13 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row #UnclarifiedChoice .title{
     margin-left: 15%;
   }
+  .container-fluid .row #UnclarifiedChoice .title p{
+    font-size: 4rem;
+  }
   .container-fluid .row #UnclarifiedChoice .words1{
     width: 70%;
     margin: 0 auto;
+    font-size: 3rem;
   }
   .container-fluid .row #UnclarifiedChoice .smalltitle1{
     margin-left: 15%;
@@ -415,16 +419,38 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row #UnclarifiedChoice .words2{
     width: 70%;
     margin: 0 auto;
+    font-size: 3rem;
   }
   .container-fluid .row #UnclarifiedChoice .smalltitle2{
     width: 90%;
     margin-left: 0%;
   }
+  .container-fluid .row #UnclarifiedChoice .smalltitle2 p{
+    font-size: 3.5rem;
+  }
   .container-fluid .row #UnclarifiedChoice .smallsmalltitle{
     width: 80%;
   }
+  .container-fluid .row #UnclarifiedChoice .smallsmalltitle p{
+    font-size: 3.5rem;
+  }
+  .container-fluid .row #UnclarifiedChoice .smallsmalltitle2{
+    width: 60%;
+  }
+  .container-fluid .row #UnclarifiedChoice .smallsmalltitle2 p{
+    font-size: 3.5rem;
+  }
+  .container-fluid .row #UnclarifiedChoice .smallsmalltitle3{
+    width: 100%;
+  }
+  .container-fluid .row #UnclarifiedChoice .smallsmalltitle3 p{
+    font-size: 3rem;
+  }
   .container-fluid .row #UnclarifiedChoice .smalltitle3 {
     width: 80%;
+  }
+  .container-fluid .row #UnclarifiedChoice .smalltitle3 p{
+    font-size: 3.5rem;
   }
 
   .container-fluid #footer #rectangle a i.fab.fa-facebook.fa-lg {
