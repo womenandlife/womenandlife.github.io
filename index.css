@@ -660,8 +660,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   #talkcafe .box_of_articlehover {
     width: 80em;
     height: 120px;
-    margin-bottom: -150px;
+    margin-bottom: -170px;
     /*border: 1px black solid;*/
+    margin-left: 3em;
   }
   #talkcafe .box_of_articlehover .hoverpicture {
     width: 80%;
