@@ -590,7 +590,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 @media (max-width: 1550px) {
   .container-fluid #front img {
-    width: 1050px;
+    width: 950px;
     height: auto;
     margin-left: 380px;
   }
@@ -677,16 +677,16 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 150px;
   }
   .container-fluid #postoffice .postofficename {
-    margin-left: 830px;
+    margin-left: 880px;
     margin-top: -450px;
   }
   .container-fluid #postoffice .postoffice_explanation {
-    margin-left: 830px;
+    margin-left: 880px;
     width: 33.6%;
     color: #7e7e7e;
   }
   .container-fluid #postoffice .form {
-    margin-left: 830px;
+    margin-left: 880px;
     float: left;
   }
 }
