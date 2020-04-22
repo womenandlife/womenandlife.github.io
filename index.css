@@ -591,6 +591,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 40em;
     margin-bottom: 350px;
   }
+  .container-fluid #questionnaire .questionnaire_explanation {
+    margin-left: 40em;
+    
+  }
   .container-fluid #cinema {
     padding: 0px;
     margin-top: 200px;
@@ -608,6 +612,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 10px;
     
   }
+  #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putnameinside {
+    margin-top: 50px;
+    left: 25em;
+  }
+  #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putoccupationinside {
+    margin-top: 150px;
+    left: 19em;
+  }
   #talkcafe .box_of_articlehover {
     width: 80em;
     height: 120px;
@@ -621,7 +633,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 7em;
     /*opacity: 1;*/
   }
-  
+  #talkcafe .swiper-container .swiper-pagination {
+    bottom: 150px;
+  }
   #talkcafe:hover .hoverpicture {
     height: auto;
   }
