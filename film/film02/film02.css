@@ -197,8 +197,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 1300px;
   }
   .container-fluid #footer {
-    padding: 0px;
-    bottom: 0px;
+    margin-top: 8%;
   }
 }
 
