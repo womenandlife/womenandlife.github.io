@@ -658,6 +658,31 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
+@media (min-width: 1800px){
+  .container-fluid .row .fifthpic_alice {
+    display: block;
+    position: absolute;
+    margin-top: 8%;
+    width: 150px;
+    height: 220.9px;
+    right: 30%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
