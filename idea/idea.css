@@ -673,10 +673,20 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
-@media (max-width: 1420px) {
+@media (max-width: 1450px) {
   .container-fluid .topbtn {
     margin-left: 1150px;
     padding-left: 0.5%;
+  }
+  .container-fluid .row .name02 {
+    margin: 0 auto;
+    margin-left: 700px;
+    margin-top: 350px;
+    margin-bottom: 30px;
+  }
+  .container-fluid .row .name03 {
+    margin-top: 400px;
+    margin-left: 300px;
   }
   .container-fluid .row .name04-1 {
     margin-left: 820px;
