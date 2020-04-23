@@ -821,7 +821,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .name01 p {
     color: #ff7657;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
   }
   .container-fluid .row .explanation {
@@ -829,11 +829,11 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     left: 175px;*/
     margin: 50px auto;
     color: #7e7e7e;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.8;
     z-index: 5;
     width: 70%;
-    text-align: left;
+    text-align: center;
   }
 
   .container-fluid .row .backbtn {
@@ -865,7 +865,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .name02 p {
     color: #ff7657;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
   }
   .container-fluid .row .explanation02 {
@@ -874,7 +874,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row .explanation02-1 {
     margin: 0 auto;
     color: #7e7e7e;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.8;
     width: 80%;
     text-align: justify;
@@ -927,7 +927,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .name03 p {
     color: #ff7657;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
   }
   .container-fluid .row .thirdpic {
@@ -950,7 +950,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     margin-top: 30px;
     color: #7e7e7e;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.8;
     text-align: justify;
     display: block;
@@ -977,7 +977,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .name04-1 p {
     color: #ff7657;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
   }
   .container-fluid .row .name04-2 {
@@ -987,7 +987,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .name04-2 p {
     color: #ff7657;
-    font-size: 2.3rem;
+    font-size: 3.2rem;
     font-weight: 900;
   }
   .container-fluid .row .explanation04 {
@@ -997,10 +997,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     margin-top: 50px;
     color: #7e7e7e;
-    font-size: 1rem;
+    font-size: 2.5rem;
     line-height: 1.8;
     width: 70%;
-    font-size: 1.4rem;
     text-align: justify;
     display: block;
   }
@@ -1137,14 +1136,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   .container-fluid .row .name05 p {
     color: #ff7657;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
   }
   .container-fluid .row .explanation05 {
     margin: 0 auto;
     margin-top: 70px;
     color: #7e7e7e;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.8;
     width: 65%;
     text-align: justify;
