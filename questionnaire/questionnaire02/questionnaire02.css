@@ -114,6 +114,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   margin-right: 18.2%;
   margin-left: 58%;
   animation: open 1s;
+  transform: scale(1);
+}
+.container-fluid #swiper .swiper-container .swiper-slide .one:hover {
+  transform: scale(1.2);
 }
 @keyframes scale {
   0% {

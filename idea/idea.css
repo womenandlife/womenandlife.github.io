@@ -1060,6 +1060,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .photos .ourjob01 {
     height: 40px;
     margin: 0 auto;
+    margin-right: 44%;
     width: fit-content;
     margin-top: 10px;
     padding-left: 2%;
@@ -1101,6 +1102,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     height: 40px;
     width: fit-content;
     margin: 0 auto;
+    margin-right: 44%;
     margin-top: 10px;
     padding-left: 2%;
     padding-top: 0.18%;
@@ -1125,7 +1127,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 200px;
     background-color: #ff7657;
     margin: 0 auto;
-    margin-left: 38%;
+    margin-left: 39%;
     margin-top: 20px;
     padding-left: 5.2%;
     padding-top: 0%;
