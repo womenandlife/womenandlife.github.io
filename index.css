@@ -202,14 +202,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   position: absolute;
   width: 70px;
   height: 70px;
-  background-color: #ffba5a;
+  background-color: #7e7e7e;
   margin-left: 14em;
   margin-top: -8em;
   cursor: pointer;
   z-index: 10;
   animation: showandhide 2s infinite;
   border-radius: 50%;
-  box-shadow: 0 0 15px 20px #ffba5a;
+  box-shadow: 0 0 15px 20px #7e7e7e;
   /*box-shadow的屬性https://www.w3school.com.cn/cssref/pr_box-shadow.asp*/
   padding-left: 15px;
   padding-top: 20px;
@@ -223,7 +223,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   position: absolute;
   width: 70px;
   height: 70px;
-  background-color: #ffba5a;
+  background-color: #7e7e7e;
   margin-left: 20.5em;
   margin-top: -20em;
   cursor: pointer;
@@ -231,7 +231,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   animation: showandhide 2s infinite;
   animation-delay: 1s;
   border-radius: 50%;
-  box-shadow: 0 0 15px 20px #ffba5a;
+  box-shadow: 0 0 15px 20px #7e7e7e;
 }
 .container-fluid #questionnaire .questionnairename {
   margin-top: -400px;
@@ -594,6 +594,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 1000px;
     height: auto;
     margin-left: 380px;
+    margin-top: 40px;
   }
   .container-fluid #front .webtitle .firstsentence {
     margin-left: 25%; 
@@ -624,14 +625,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .goto1stquestion {
     position: absolute;
     margin-left: 13em;
-    margin-top: -15em;
+    margin-top: -15.2em;
     
   }
   
   .container-fluid .goto2ndquestion {
     position: absolute;
     margin-left: 19.5em;
-    margin-top: -25em;
+    margin-top: -24em;
   }
   .container-fluid #cinema {
     padding: 0px;
@@ -733,6 +734,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 900px;
     height: auto;
     margin-left: 330px;
+    margin-top: 40px;
   }
   .container-fluid #front .idea_explanation {
     margin-top: 40px;
@@ -849,6 +851,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 @media (min-width: 1800px) {
+  .container-fluid #front img {
+    margin-top: 40px;
+  }
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light a {
     color: #ffba5a;
     font-weight: 600;
@@ -1033,7 +1038,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 1300px;
     height: auto;
     margin-left: 480px;
-    margin-top: 0px;
+    margin-top: 80px;
   }
   .container-fluid #questionnaire {
     padding: 0px;
@@ -1051,14 +1056,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     position: absolute;
     width: 100px;
     height: 100px;
-    background-color: #ffba5a;
     margin-left: 13.3em;
     margin-top: -25.3em;
     cursor: pointer;
     z-index: 10;
     animation: showandhide 2s infinite;
     border-radius: 50%;
-    box-shadow: 0 0 15px 20px #ffba5a;
     padding-left: 17px;
     padding-top: 28px;
   }
@@ -1071,9 +1074,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     position: absolute;
     width: 90px;
     height: 90px;
-    background-color: #ffba5a;
     border-radius: 50%;
-    box-shadow: 0 0 15px 20px #ffba5a;
     margin-left: 24em;
     margin-top: -36em;
     cursor: pointer;
@@ -1287,14 +1288,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     position: absolute;
     width: 100px;
     height: 100px;
-    background-color: #ffba5a;
     margin-left: 11em;
     margin-top: -27.3em;
     cursor: pointer;
     z-index: 10;
     animation: showandhide 2s infinite;
     border-radius: 50%;
-    box-shadow: 0 0 15px 20px #ffba5a;
     padding-left: 17px;
     padding-top: 28px;
   }
@@ -1307,7 +1306,6 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     position: absolute;
     width: 90px;
     height: 90px;
-    background-color: #ffba5a;
     margin-left: 22em;
     margin-top: -38em;
     cursor: pointer;
@@ -1315,7 +1313,6 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     animation: showandhide 2s infinite;
     animation-delay: 1s;
     border-radius: 50%;
-    box-shadow: 0 0 15px 20px #ffba5a;
   }
   .container-fluid #questionnaire .questionnairename {
     margin: 0 auto;
@@ -1408,9 +1405,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .swiper-container {
     /*width: 800px;
     height:  60%;*/
-    width: 720px;
+    width: 820px;
     height: 480px;
-    left: 6.5%;
+    left: 7.5%;
     top: 100%;
     margin-right: auto;
     position: relative;
@@ -1447,7 +1444,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 110%;
     min-width: 500px;
     height: auto;
-    left: -50px;
+    left: -10px;
     top: 13%;
     opacity: 1;
   }
@@ -1478,7 +1475,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     height: 60px;
     border-radius: 44px;
     margin-top: 80px;
-    left: 110px;
+    left: 150px;
     z-index: 5;
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putnameinside p {
@@ -1494,7 +1491,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     .putoccupationinside {
     position: absolute;
     margin-top: 172px;
-    left: 140px;
+    left: 170px;
     text-align: left;
     font-size: 1.6rem;
     font-weight: 600;

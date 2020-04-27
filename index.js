@@ -52,10 +52,10 @@ $('.swiper-pagination').on('click','li',function(){
 
 
 //-以下使得滾動網頁時，一旦往下就會顯現navbar，原來在網頁最上面時，不會顯現
-$(window).scroll(function(e) {
-  if ($(window).scrollTop() <= 0) $("nav").css("visibility", "hidden");
-  else $("nav").css("visibility", "visible");
-});
+//$(window).scroll(function(e) {
+  //if ($(window).scrollTop() <= 0) $("nav").css("visibility", "hidden");
+//  else $("nav").css("visibility", "visible");
+//});
 
 //-以下是讓滾動變得滑順
 $(function() {
