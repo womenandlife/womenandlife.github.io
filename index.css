@@ -160,7 +160,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   margin-top: 50px;
   margin-left: 220px;
   height: 47px;
-  width: 110px;
+  width: 150px;
   background-color: #665c84;
   padding-top: 0.45%;
   padding-left: 1%;
@@ -441,7 +441,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   width: 80em;
   height: 120px;
   margin-bottom: -120px;
-  margin-left: 0em;
+  margin-left: 10em;
   /*border: 1px black solid;*/
 }
 #talkcafe .box_of_articlehover .hoverpicture {
@@ -741,7 +741,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
   }
   .container-fluid #front .firstmorebtn {
-    margin-left: 200px;
+    margin-left: 150px;
   }
   .container-fluid #questionnaire {
     padding: 0px;
@@ -883,7 +883,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 50px;
     margin-left: 280px;
     height: 47px;
-    width: 110px;
+    width: 150px;
     background-color: #665c84;
     padding-top: 0.45%;
     padding-left: 1%;
@@ -1256,10 +1256,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #front .firstmorebtn {
     border-radius: 20px;
     height: 50px;
-    width: 120px;
+    width: 150px;
     margin: 0 auto;
     margin-top: 60px;
-    margin-left: 49%;
+    margin-left: 46%;
     background-color: #665c84;
     padding-top: 0.7%;
     padding-left: 1.9%;
@@ -1444,8 +1444,8 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 110%;
     min-width: 500px;
     height: auto;
-    left: -10px;
-    top: 13%;
+    left: -50px;
+    top: 5%;
     opacity: 1;
   }
   #talkcafe .people_background {
