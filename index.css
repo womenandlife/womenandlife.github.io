@@ -1220,7 +1220,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #front img {
     width: 120%;
     height:auto;
-    margin: -70px auto 0px -15%;
+    margin: 0px auto 0px -15%;
   }
   .container-fluid #front .webtitle {
     margin: 0 auto;
@@ -1254,19 +1254,19 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     font-size: 3.2rem;
   }
   .container-fluid #front .firstmorebtn {
-    border-radius: 20px;
-    height: 50px;
-    width: 150px;
+    border-radius: 50px;
+    height: 75px;
+    width: 225px;
     margin: 0 auto;
     margin-top: 60px;
-    margin-left: 46%;
+    margin-left: 43%;
     background-color: #665c84;
-    padding-top: 0.7%;
-    padding-left: 1.9%;
+    padding-top: 1%;
+    padding-left: 2.9%;
   }
   .container-fluid #front .firstmorebtn a {
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 2rem;
     transition-duration: 0.5s;
     font-weight: 500;
   }
@@ -1547,18 +1547,19 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     font-size: 3rem;
   }
   .container-fluid #issues .morebtn {
-    border-radius: 31px;
-    height: 50px;
-    width: 120px;
+    border-radius: 50px;
+    height: 75px;
+    width: 225px;
     background-color: #665c84;
     margin: 50px auto;
-    margin-left: 49%;
+    margin-left: 42%;
     display: block;
+    padding-left: 1%;
   }
   .container-fluid #issues .morebtn a {
     color: #fff;
     line-height: 2.1;
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     transition-duration: 0.5s;
     
   }
