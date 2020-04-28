@@ -17,6 +17,9 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+body nav{
+  opacity: 0;
+}
 nav .navbar-toggler-icon{
   width: 3em;
   height: 3em;
@@ -605,6 +608,13 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 @media (max-width: 1690px) {
+  .container-fluid #front img {
+    width: 1000px;
+    height: auto;
+    margin-left: 450px;
+    margin-top: 80px;
+    animation: showimage 3s;
+  }
   .container-fluid .goto1stquestion {
     position: absolute;
     margin-left: 14em;
@@ -614,6 +624,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     position: absolute;
     margin-left: 20.5em;
     margin-top: -27em;
+  }
+  .container-fluid #cinema .cinemaleft1 {
+    width: 32%;
+    height: auto;
+    margin-left: 8.3%;
+    margin-top: 280px;
   }
 }
 
