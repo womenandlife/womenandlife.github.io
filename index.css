@@ -713,6 +713,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 40em;
     margin-top: -140px;
   }
+  .container-fluid #cinema .cinemaleft1 {
+margin-top: 150px;
+  }
   .container-fluid #cinema .cinema_explanation {
     margin-left: 40em;
     margin-top: 10px;
@@ -724,6 +727,9 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putoccupationinside {
     margin-top: 150px;
     left: 20.5em;
+  }
+  #talkcafe .swiper-container .swiper-wrapper .swiper-slide img {
+    top: 2em;
   }
   #talkcafe .box_of_articlehover {
     width: 80em;
