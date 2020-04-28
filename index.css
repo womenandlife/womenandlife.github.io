@@ -720,20 +720,27 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 40em;
     margin-top: 10px;
   }
-  .container-fluid #talkcafe {
-    padding: 0px;
-    margin-top: 200px;
-  }
+
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putnameinside {
-    margin-top: 50px;
+    margin-top: 100px;
     left: 25em;
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putoccupationinside {
-    margin-top: 180px;
+    margin-top: 200px;
     left: 20.5em;
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide img {
-    top: 2em;
+    top: 4.1em;
+  }
+  #talkcafe .people_background {
+    position: relative;
+    /*margin-top: 50%;*/
+    margin-bottom: -55%;
+    z-index: -1000;
+    width: 80%;
+    height: auto;
+    opacity: 1;
+    margin-left: 10em;
   }
   #talkcafe .box_of_articlehover {
     width: 80em;
