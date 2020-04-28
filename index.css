@@ -720,6 +720,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-left: 40em;
     margin-top: 10px;
   }
+  .container-fluid #talkcafe {
+    padding: 0px;
+    margin-top: 200px;
+  }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putnameinside {
     margin-top: 50px;
     left: 25em;
