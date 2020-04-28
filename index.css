@@ -591,6 +591,49 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1690px) {
+  .container-fluid .goto1stquestion {
+    position: absolute;
+    margin-left: 14em;
+    margin-top: -18em;
+  }
+  .container-fluid .goto2ndquestion {
+    position: absolute;
+    margin-left: 20.5em;
+    margin-top: -27em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1550px) {
   .container-fluid #front img {
     width: 1000px;
