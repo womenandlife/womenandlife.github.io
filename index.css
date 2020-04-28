@@ -695,9 +695,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     position: absolute;
     margin-left: 13em;
     margin-top: -15.2em;
-    
   }
-  
   .container-fluid .goto2ndquestion {
     position: absolute;
     margin-left: 19.5em;
@@ -718,7 +716,6 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid #cinema .cinema_explanation {
     margin-left: 40em;
     margin-top: 10px;
-    
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putnameinside {
     margin-top: 50px;
@@ -871,7 +868,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   #talkcafe .box_of_articlehover .hoverpicture {
     width: 90%;
     height: 0;
-    margin-left: 2em;
+    margin-left: -1em;
     margin-top: 0em;
     /*opacity: 1;*/
   }
