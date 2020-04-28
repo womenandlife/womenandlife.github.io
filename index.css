@@ -371,7 +371,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   z-index: 5;
 }
 #talkcafe{
-  margin-top:80px;
+  margin-top:150px;
 }
 #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putnameinside p {
   color: white;
@@ -466,7 +466,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 .container-fluid #issues img {
   width: 500px;
   height: auto;
-  margin-top: 12%;
+  margin-top: 10%;
   margin-left: 57%;
   position: relative;
   margin-bottom: 12.5%;
@@ -714,7 +714,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: -140px;
   }
   .container-fluid #cinema .cinemaleft1 {
-  margin-top: 150px;
+  margin-top: 170px;
   }
   .container-fluid #cinema .cinema_explanation {
     margin-left: 40em;
@@ -725,7 +725,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     left: 25em;
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putoccupationinside {
-    margin-top: 150px;
+    margin-top: 180px;
     left: 20.5em;
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide img {
@@ -1194,10 +1194,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin-top: 150px;
   }
   .container-fluid #postoffice img {
-    width: 630px;
+    width: 700px;
     height: auto;
     position: relative;
-    margin-left: 350px;
+    margin-left: 300px;
   }
   .container-fluid #postoffice .postofficename {
     margin-left: 1130px;
