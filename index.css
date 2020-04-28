@@ -726,7 +726,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     left: 25em;
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putoccupationinside {
-    margin-top: 200px;
+    margin-top: 220px;
     left: 20.5em;
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide img {
@@ -760,7 +760,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     height: auto;
   }
   #talkcafe .swiper-container .swiper-pagination {
-    bottom: 150px;
+    bottom: 110px;
   }
   .container-fluid #postoffice img {
     width: 630px;
