@@ -716,7 +716,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   }
   #talkcafe .swiper-container .swiper-wrapper .swiper-slide .putoccupationinside {
     margin-top: 150px;
-    left: 20em;
+    left: 20.5em;
   }
   #talkcafe .box_of_articlehover {
     width: 80em;
@@ -728,7 +728,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   #talkcafe .box_of_articlehover .hoverpicture {
     width: 80%;
     height: 0;
-    margin-left: 11.5em;
+    margin-left: 12.5em;
     margin-top: 5em;
     /*opacity: 1;*/
   }
