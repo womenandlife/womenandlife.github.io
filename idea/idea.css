@@ -854,10 +854,10 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     left: 175px;*/
     margin: 50px auto;
     color: #7e7e7e;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.8;
     z-index: 5;
-    width: 70%;
+    width: 85%;
     text-align: center;
   }
 
@@ -899,7 +899,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
   .container-fluid .row .explanation02-1 {
     margin: 0 auto;
     color: #7e7e7e;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.8;
     width: 80%;
     text-align: justify;
@@ -975,7 +975,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     margin-top: 30px;
     color: #7e7e7e;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.8;
     text-align: justify;
     display: block;
@@ -1170,7 +1170,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     margin: 0 auto;
     margin-top: 70px;
     color: #7e7e7e;
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 1.8;
     width: 65%;
     text-align: justify;
