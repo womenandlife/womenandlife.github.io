@@ -17,11 +17,6 @@ window.addEventListener("scroll", function() {
 });
 
 
-//靠近 出現
-$("nav").mouseenter(function(){
-  $("nav").css("opacity", "1");
-});
-
 
 
 
