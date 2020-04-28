@@ -17,9 +17,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-body nav{
-  opacity: 0;
-}
+
 nav .navbar-toggler-icon{
   width: 3em;
   height: 3em;
