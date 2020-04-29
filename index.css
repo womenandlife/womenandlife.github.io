@@ -1646,14 +1646,14 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     width: 225px;
     background-color: #665c84;
     margin: 50px auto;
-    margin-left: 42%;
+    margin-left: 42.5%;
     display: block;
     padding-left: 1%;
   }
   .container-fluid #issues .morebtn a {
     color: #fff;
     line-height: 2.1;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     transition-duration: 0.5s;
     
   }
