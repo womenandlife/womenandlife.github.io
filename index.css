@@ -936,7 +936,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
 
 @media (min-width: 1800px) {
   .container-fluid #front img {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   nav.navbar.fixed-top.navbar-expand-lg.navbar-light a {
     color: #ffba5a;

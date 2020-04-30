@@ -667,6 +667,12 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-light
     height: 220.9px;
     right: 30%;
   }
+  .container-fluid .row .name03 {
+    margin-left: 350px;
+  }
+  .container-fluid .row .explanation03 {
+    margin-left: 350px;
+  }
 }
 
 
